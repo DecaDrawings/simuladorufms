@@ -166,7 +166,7 @@ h1
 }
 .anuncio-box
 {
-	box-shadow: 2px 2px 2px 1px white;
+	overflow-y: hidden;
 }
 .my-instagram img
 {

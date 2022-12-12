@@ -156,6 +156,7 @@ h1
 }
 .my-instagram
 {
+	cursor: grab;
 	display: grid;
 	box-sizing: border-box;
 	grid-row: 1;

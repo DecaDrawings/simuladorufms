@@ -40,7 +40,7 @@ function imprimirResultado(mediaFinal)
 {	
     if(document.getElementById("labelResult"))
     {
-        document.getElementById("labelResult").textContent = "Sua média seria:" + mediaFinal.toFixed(2);
+        document.getElementById("labelResult").textContent = "Sua média seria: " + mediaFinal.toFixed(2);
     }
     
   	resultadoBox.innerHTML += "<label id='labelResult' style='font-size: 1rem; font-weight: bold;'>Sua média seria: " + mediaFinal.toFixed(2) + "</label></br>";
@@ -622,10 +622,6 @@ btn.addEventListener("click", function () {
 		console.log(EPHUM);
 		console.log(EPLIN);
 	}	
-    input_MAT.reset();
-    input_LIN.reset();
-    input_HUM.reset();
-    input_NAT.reset();
-    input_RED.reset();
+    
 	
 });

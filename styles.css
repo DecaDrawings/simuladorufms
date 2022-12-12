@@ -164,6 +164,10 @@ h1
 	justify-items: start;
 	align-items: center;
 }
+.adsbygoogle
+{
+	overflow: hidden;
+}
 .anuncio-box
 {
 	overflow-y: hidden;

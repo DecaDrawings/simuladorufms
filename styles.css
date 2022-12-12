@@ -164,6 +164,10 @@ h1
 	justify-items: start;
 	align-items: center;
 }
+.anuncio-box
+{
+	box-shadow: 2px 2px 2px 1px white;
+}
 .my-instagram img
 {
 	width: 100%;

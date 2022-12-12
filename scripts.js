@@ -38,7 +38,11 @@ function somenteNumeros(e)
 }
 function imprimirResultado(mediaFinal)
 {	
-    document.getElementById("labelResult").remove();
+    if(document.getElementById("labelResult"))
+    {
+        document.getElementById("labelResult").remove();
+    }
+    
   	resultadoBox.innerHTML += "<label id='labelResult' style='font-size: 1rem; font-weight: bold;'>Sua média seria: " + mediaFinal.toFixed(2) + "</label></br>";
    
 }

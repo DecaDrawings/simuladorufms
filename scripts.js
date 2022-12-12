@@ -38,7 +38,9 @@ function somenteNumeros(e)
 }
 function imprimirResultado(mediaFinal)
 {	
-  	resultadoBox.innerHTML += "<label style='font-size: 1rem; font-weight: bold;'>Sua média seria: " + mediaFinal.toFixed(2) + "</label></br>";
+  	resultadoBox.innerHTML += "<label id='labelResult' style='font-size: 1rem; font-weight: bold;'>Sua média seria: " + mediaFinal.toFixed(2) + "</label></br>";
+
+    document.getElementById("labelResult").innerHTML = "<label id='labelResult' style='font-size: 1rem; font-weight: bold;'>Sua média seria: " + mediaFinal.toFixed(2) + "</label></br>";
 }
 
 btn.addEventListener("click", function () {

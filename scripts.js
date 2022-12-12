@@ -21,6 +21,20 @@ var mediaFinal;
 
 var resultadoBox = document.getElementsByClassName("formulario_box")[0];
 
+
+var menu = document.getElementById("box-lista");
+function verificarMenu()
+{			
+	if(menu.style.width == "")
+	{
+		menu.style.width = "300px";
+	}
+	else
+	{
+		menu.style.width = "";
+	}
+}
+
 function somenteNumeros(e) 
 {
     var charCode = e.charCode ? e.charCode : e.keyCode;

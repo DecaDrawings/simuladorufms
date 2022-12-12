@@ -69,7 +69,7 @@ body
 	align-items: center;
 	grid-area: titulo;	
 	display: flex;	
-	font-size: 20px;
+	font-size: 1.2rem;
 	font-weight: bold;
 	color: black;
 	grid-column: 2;

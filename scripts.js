@@ -47,7 +47,8 @@ function imprimirResultado(mediaFinal)
    
 }
 
-btn.addEventListener("click", function () {
+function calcularMetodo()
+{
 	var input_MAT = document.getElementById("input_MAT").value;
 	var input_LIN = document.getElementById("input_LIN").value;
 	var input_HUM = document.getElementById("input_HUM").value;

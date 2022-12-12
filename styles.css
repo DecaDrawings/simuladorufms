@@ -1,0 +1,300 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: Century Gothic;
+	color: white;
+	
+}
+html {
+    height: 100%;
+	
+}
+body
+{
+	background-color: white;
+	height: 100vh;
+	width: 100%;
+	box-sizing: border-box;
+	overflow-x: hidden;
+}
+.nav
+{
+	padding: 20px;
+	width: 100%;
+	background-color: rgb(10,10,10);
+	height: 50px;	
+	display: grid;
+	justify-content: center;
+	box-shadow: 2px 2px 2px 1px rgb(13 62 149);
+}
+.conteudo_nav
+{	
+	display: grid;
+	grid-template-areas:"titulo";
+	grid-template-columns: 20% 80%;
+	justify-content: center;
+	grid-auto-flow: row;
+	
+}
+.conteudo_nav img
+{
+	width: 100%;
+	grid-column: 1;
+}
+
+#titulo_nav
+{	
+	justify-content: start;
+	align-items: center;
+	grid-area: titulo;	
+	display: flex;	
+	font-size: 20px;
+	font-weight: bold;
+	color: black;
+	grid-column: 2;
+}
+h1
+{
+	font-size: 1rem;
+	text-align: center;
+}
+.text-center p
+{
+	text-align: justify;
+}
+.content
+{
+
+	background-color: rgb(40,40,40);
+	display: grid;
+	justify-content: center;
+	align-items: center;
+	grid-template-areas: "menu texto propaganda"
+						 "menu conteudo propaganda";
+	grid-template-columns: 20% 60% 20%;		
+	
+	grid-gap: 20px;
+}
+.text-center
+{
+	grid-area: texto;
+	padding: 40px;
+	padding-bottom: 0px;
+}
+.central-box
+{
+	padding-top: 0px;
+	padding: 40px;
+	text-align: center;
+	grid-area: conteudo;
+}
+.menu-lateral
+{
+	display: grid;
+	word-wrap: break-word;
+	box-shadow: 0px 0px 5px 0px black;
+	grid-area: menu;
+	border-right: 2px rgb(10,10,10);
+	height: 100%;
+	text-align: center;
+}
+.menu-lateral-content
+{
+	display: block;
+	padding: 30px;
+}
+.propaganda-box
+{
+	grid-area: propaganda;
+	box-shadow: 0px 0px 5px 0px black;
+	height: 100%;
+	text-align: center;
+}
+.arquivo-1
+{
+	display: grid;
+	grid-template-columns: 20% 80%; 
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+	margin: 20px;
+}
+.arquivo-1 img
+{
+	width: 100%;
+}
+.menu-lateral p 
+{
+	padding: 20px;
+}
+.content-propaganda
+{
+	padding: 20px;
+	display: grid;	
+}
+.my-instagram
+{
+	display: grid;
+	box-sizing: border-box;
+	grid-row: 1;
+	grid-template-columns: 20% 80%;	
+	justify-items: start;
+	align-items: center;
+}
+.my-instagram img
+{
+	width: 100%;
+}
+.formulario_box
+{	
+	box-shadow: 2px 2px 2px 1px rgb(13 62 149);
+	display: grid;
+	grid-template-areas:"cursos"
+						"ano"
+						"notaMat"
+						"notaLin"
+						"notaHum"
+						"notaNat"
+						"reda"
+						"botao";
+	grid-template-columns: 100%;	
+	justify-items: center;
+	align-items: center;
+	grid-gap: 10px;
+	background-color: rgb(40,116,252);
+	padding: 30px;
+	text-align: center;
+	border-radius: 10px;
+}
+.fomulario_box label
+{
+	font-size: 1rem;
+	font-weight: bold;
+}
+.formulario_box select
+{
+	width: 100%;
+	font-size: 1rem;
+	color: white;
+	background-color: white;
+	text-align: center;
+	border-radius: 10px;
+	border-width: 1px;
+	border-color: white;
+	padding: 5px;
+	justify-content: center;
+	color: black;
+}
+.formulario_box input
+{
+	width: 100%;
+	font-size: 1rem;
+	color: black;
+	background-color: white;
+	text-align: center;
+	border-radius: 10px;
+	border-width: 0.1px;	
+	padding: 2px;	
+	border: none;
+}
+.formulario_box input:focus
+{
+	border-color: white;
+}
+::placeholder
+{
+	color: grey; 
+}
+.formulario_box select:nth-child(1)
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	grid-area: cursos;
+	color: white;
+	background-color: rgb(40,116,252);
+}
+.formulario_box select:nth-child(2)
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	grid-area: ano;
+	color: white;
+	background-color: rgb(40,116,252);
+}
+.formulario_box input:nth-child(3)
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	grid-area: notaMat;
+}
+.formulario_box input:nth-child(4)
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	grid-area: notaLin;
+}
+.formulario_box input:nth-child(5)
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	grid-area: notaHum;
+}
+.formulario_box input:nth-child(6)
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	grid-area: notaNat;
+}
+.formulario_box input:nth-child(7)
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	grid-area: reda;
+}
+.formulario_box input:nth-child(8)
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	grid-area: botao;
+	padding: 20px;
+	border: none;
+	background-color: #fd9644;
+    border: 2px solid #fa8231;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+#submit-btn:hover
+{
+	cursor: grab;
+
+}
+#submit-btn:active {
+ 
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+
+}
+.foot
+{
+	height: 30px;
+	
+	background-color: rgb(10,10,10);
+	text-align: center;
+	padding: 20px;
+}

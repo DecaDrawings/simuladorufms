@@ -25,6 +25,7 @@ var resultadoBox = document.getElementsByClassName("formulario_box")[0];
 var menu = document.getElementById("box-lista");
 function verificarMenu()
 {			
+	var menu = document.getElementById("box-lista");
 	if(menu.style.width == "")
 	{
 		menu.style.width = "300px";

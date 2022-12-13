@@ -1,6 +1,6 @@
 <?php
 
-$hostname = "99.000webhost.io";
+$hostname = "https://databases-auth.000webhost.com/";
 $bancodedados = "id20004793_sistemadenotas";
 $usuario = "guizao";
 $senha = "av7}U_Z|dT=\70ry";

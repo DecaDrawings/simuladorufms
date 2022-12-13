@@ -237,7 +237,7 @@ h1
 .text-center p
 {
 	text-align: justify;
-	margin-top: 20px;
+	
 }
 .content
 {
@@ -257,6 +257,7 @@ h1
 	grid-area: texto;
 	padding: 40px;
 	padding-bottom: 0px;
+	margin-top: 20px;
 }
 .central-box
 {

@@ -161,6 +161,7 @@ body
 	border-color: white;
 	padding: 10px;
 	transition: 0.5s;
+	text-decoration: none;
 }
 .lista-de-abas a:hover
 {
@@ -190,7 +191,7 @@ body
 }
 .menu-list
 {
-	width: 100%
+	width: 100%;
 	margin-top: 10px;
 	grid-area: menu;
 	display: inline;

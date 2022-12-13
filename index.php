@@ -11,15 +11,13 @@ include("conexao.php");
 <meta name="keywords" content="HTML, CSS, JavaScript">
 <meta name="author" content="Guizão">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="styles.css">
-<link rel="stylesheet" href="stylesPhone.css">
+<link rel="stylesheet" href="stylesArquivos.css">
+<link rel="stylesheet" href="stylesPhoneArquivos.css">
 <link rel="icon" type="imagem/png" href="/icons/favicon.ico" />
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet">
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3836809396950894" crossorigin="anonymous"></script>
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3836809396950894"
-     crossorigin="anonymous"></script>
 </head>
 <body>
 	<div class="nav">
@@ -31,13 +29,13 @@ include("conexao.php");
 			<img  src="/icons/Menu_100px.png" onclick="verificarMenu();">	
 			<div class="box-list" id="box-lista">
 				<ul class="lista-de-abas">
-				<a class="active" href="index.html">
+				<a class="" href="index.html">
 					<img class="icon" src="/icons/home_100px.png">
 					<li>Home</li></a>
 				<a>
 					<img class="icon" src="/icons/pencil_52px.png">
 					<li>Simulador</li></a>
-				<a href="arquivos.html">
+				<a class="active" href="arquivos.html">
 					<img class="icon" src="/icons/archive_48px.png">
 					<li>Arquivos</li></a>
 				<a>
@@ -62,70 +60,22 @@ include("conexao.php");
 				</div>		
 				<div class="arquivo-1">
 					<img src="/icons/pdf_96px.png">
-					<a href="../SITE/documents/RELAÇÃO CANDIDATO X VAGA UEMS - PRELIMINAR (1).pdf">Relação candidato x vaga UEMS 2023</a>
+					<a href="/documents/RELAÇÃO CANDIDATO X VAGA UEMS - PRELIMINAR (1).pdf">Relação candidato x vaga UEMS 2023</a>
 				</div>		
 				<div class="arquivo-1">
 					<img src="/icons/pdf_96px.png">
 					<a href=""> Classificação Preliminar (AGUARDE)</a>
 				</div>				
 			</div>
-		</div>
-		<div class="text-center">
-			<h1>Essa simulação se baseia na média e no desvio do ano anterior com base nos pesos do edital do ano de 2022</h1>
-			<br>
-			<p> &emsp; Digite seus acertos, sua possível nota de redação e obtenha a nota simulada. Assim você consegue uma noção de que classificação ficaria em relação ao ano anterior. OBS: ISSO NÃO É UMA QUANTIFICAÇÃO OFICIAL, OS RESULTADOS OFICIAIS SERÃO DISPONIBILIZADOS PELA UFMS.</p>
-			<p> &emsp; O intuito dessa simulação é conseguir diminuir um pouco a ansiedade dos vestibulandos que seus resultados aguardam. Não esqueça de nos ajudar a continuar fazendo esse papel todos os anos. Envie qualquer valor e contribua com nosso trabalho. <b>PIX: (67)99680-2851</b></p>
-		</div>
-		<div class="central-box">			
-			<form action="" method="get" class="formulario_box">
-				<select id="lista_cursos">					
-					<option selected>MEDICINA - BACHARELADO</option>
-  					<option>DIREITO - BACHARELADO</option>
-  					<option>ADMINISTRAÇÃO - BACHARELADO</option>
-  					<option>AGRONOMIA - BACHARELADO</option>
-  					<option>ARQUITETURA E URBANISMO - BACHARELADO</option>
-  					<option>ARTES VISUAIS - BACHARELADO</option>
-  					<option>ARTES VISUAIS - LICENCIATURA</option>
-  					<option>AUDIOVISUAL - BACHARELADO</option>
-  					<option>CIÊNCIA DA COMPUTAÇÃO - BACHARELADO</option>
-  					<option>CIÊNCIAS BIOLÓGICAS - BACHARELADO</option>
-  					<option>CIÊNCIAS BIOLÓGICAS - LICENCIATURA</option>
-  					<option>CIÊNCIAS CONTÁBEIS - BACHARELADO</option>
-  					<option>CIÊNCIAS ECONÔMICAS - BACHARELADO</option>  					
-  					<option>EDUCAÇÃO FÍSICA - BACHARELADO</option>
-  					<option>EDUCAÇÃO FÍSICA - LICENCIATURA</option>
-  					<option>ENFERMAGEM - BACHARELADO</option>
-  					<option>ENGENHARIA CIVIL - BACHARELADO</option>
-  					<option>ENGENHARIA DE COMPUTAÇÃO - BACHARELADO</option>
-  					<option>ENGENHARIA DE PRODUÇÃO - BACHARELADO</option>
-  					<option>ENGENHARIA DE SOFTWARE - BACHARELADO</option>
-  					<option>ENGENHARIA ELÉTRICA - BACHARELADO</option>
-  					<option>ENGENHARIA QUÍMICA - BACHARELADO</option>
-  					<option>FARMÁCIA -  BACHARELADO</option>
-  					<option>FISIOTERAPIA - BACHARELADO</option>
-  					<option>HISTÓRIA - LICENCIATURA</option>
-  					<option>INTERCULTURAL INDÍGENA - LICENCIATURA</option>
-  					<option>JORNALISMO - BACHARELADO</option>
-  					<option>LETRAS - PORTUGUÊS/INGLÊS - LICENCIATURA</option>
-  					<option>MEDICINA VETERINÁRIA - BACHARELADO</option>
-  					<option>MÚSICA - LICENCIATURA</option>
-  					<option>NUTRIÇÃO - BACHARELADO</option>
-  					<option>ODONTOLOGIA - BACHARELADO</option>
-  					<option>PEDAGOGIA - LICENCIATURA</option>
-  					<option>PSICOLOGIA - BACHARELADO</option>
-  					<option>SISTEMAS DE INFORMAÇÃO - BACHARELADO</option>
-  					<option>ZOOTECNIA - BACHARELADO</option>  					
-				</select>
-				<select id="ano_de_referencia">
-					<option value="2022" selected>2022</option>  									
-				</select>
-				<input id="input_MAT" type="text" name="Acertos_Matemática" placeholder="Acertos em Matemática" onkeypress="return somenteNumeros(event)">
-				<input id="input_LIN" type="text" name="Acertos_Linguagens" placeholder="Acertos em Linguagens" onkeypress="return somenteNumeros(event)">
-				<input id="input_HUM" type="text" name="Acertos_Humanas" placeholder="Acertos em Humanas" onkeypress="return somenteNumeros(event)">
-				<input id="input_NAT" type="text" name="Acertos_Natureza" placeholder="Acertos em Natureza" onkeypress="return somenteNumeros(event)">
-				<input id="input_RED" type="text" name="Nota_Redação" placeholder="Nota da Redação" onkeypress="return somenteNumeros(event)">
-				<input  type="button" name="btn_simular" onclick="calcularMetodo('teste')" value="SIMULAR" id="submit-btn" onkeypress="return somenteNumeros(event)">
-			</form>
+		</div>		
+		<div class="central-box">
+			<div class="search-box">	
+				<input type="text" name="search-insc" placeholder="Procurar número de inscrição:">
+				<a href="index.php"><img src="/icons/search_100px.png" class="search-icon" ></a>
+			</div>	
+			<div class="table-php">
+				
+			</div>	
 		</div>
 		<div class="propaganda-box">
 			<div class="content-propaganda">

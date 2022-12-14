@@ -1,8 +1,8 @@
 criarTabela("");
 var input = document.getElementById("search-text");
 input.addEventListener("keyup", function(){
-    console.log(this.value);
-    criarTabela(this.value);
+    console.log(input.value);
+    criarTabela(input.value);
 });
 
 function criarTabela(numInsc)
@@ -22,8 +22,8 @@ function criarTabela(numInsc)
                      "<td>" + basedeDados[i][4] + "</td>" +
                      "<td>" + basedeDados[i][5] + "</td>" +
                      "<td>" + basedeDados[i][6] + "</td></tr>"; 
-            }
-            i = basedeDados.length;                  
+                     i = basedeDados.length;    
+            }                          
         }
     }
     else

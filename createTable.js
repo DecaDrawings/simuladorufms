@@ -6,7 +6,7 @@ input.addEventListener("keypress", function(){
 
 function criarTabela(numInsc)
 {
-    if(numInsc.length == 0)
+    if(!numInsc)
     {
         var tabela = document.getElementsByClassName("tabela")[0];
         var dados = "<tr><th>Inscrição</th>" + "<th>Modalidade</th>" + "<th>PR</th><th>PM</th><th>PL</th><th>PH</th><th>PN</th></tr>";       

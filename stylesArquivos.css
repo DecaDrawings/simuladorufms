@@ -269,12 +269,17 @@ h1
 	height: 100%;
 	margin-top: 100px;
 	display: grid;
-	grid-template-areas: "search"
+	grid-template-areas: "text"
+						 "search"
 						 "tabela";
-	grid-template-rows: 44px 80%;
+	grid-template-rows: 10% 44px 60%;
 	grid-gap: 20px;
 	align-items: start;
 	overflow: hidden;
+}
+.text-central
+{
+	grid-area: text;
 }
 .search-box
 {

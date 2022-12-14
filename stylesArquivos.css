@@ -316,9 +316,13 @@ h1
 	overflow-y: scroll;
 	grid-area: tabela;
 	width: 100%;
-	max-height: 100%;
+	max-height: 500px;
 	height: 100%;
 	background-color: rgb(10,10,10);
+}
+.tabela
+{
+	width: 100%;
 }
 .menu-lateral
 {

@@ -1,6 +1,6 @@
 criarTabela();
 var input = document.getElementById("search-text");
-input.addEventListener("keydown", function(){
+input.addEventListener("keyup", function(){
     console.log(this.value);
     criarTabela(this.value);
 });

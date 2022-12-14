@@ -22,7 +22,7 @@ function criarTabela(numInsc)
                      "<td>" + basedeDados[i][6] + "</td></tr>";        
         }
     }
-    else
+    else if (numInsc != "")
     {
         var tabela = document.getElementsByClassName("tabela")[0];
         var dados = "<tr><th>Inscrição</th>" + "<th>Modalidade</th>" + "<th>PR</th><th>PM</th><th>PL</th><th>PH</th><th>PN</th></tr>";       

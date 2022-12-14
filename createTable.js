@@ -1,4 +1,4 @@
-criarTabela();
+criarTabela("");
 var input = document.getElementById("search-text");
 input.addEventListener("keyup", function(){
     console.log(this.value);

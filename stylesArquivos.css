@@ -353,7 +353,12 @@ h1
 .menu-lateral-content
 {
 	display: block;
-	padding: 30px;
+	padding: 20px;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+.menu-lateral-content p{
+	margin-right: 20px;
 }
 .propaganda-box
 {

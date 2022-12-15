@@ -134,8 +134,7 @@
 	
 }
 .box-list
-{
-	
+{	
 	text-align: center;	
 }
 html {
@@ -204,7 +203,7 @@ body
 }
 .lista-de-abas
 {
-	display: flex;
+	display: inline-flex;
 	text-align: center;
 	margin-top: 20px;
 }

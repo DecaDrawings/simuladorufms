@@ -220,16 +220,12 @@ body
 	
 	cursor: grab;	
 }
-.lista-de-abas li:hover
-{
-	
-}
 .conteudo_nav
 {	
 	display: grid;
 	grid-area: titulo;
-	grid-template-areas:"titulo";
-	grid-template-columns: 20%;
+	grid-template-areas:"iconUFMS titulo";
+	grid-template-columns: 18% 20%;
 	justify-content: center;
 	grid-auto-flow: row;
 	align-items: center;
@@ -238,7 +234,7 @@ body
 .conteudo_nav img
 {
 	width: 100%;
-	grid-column: 1;
+	grid-area: iconUFMS;
 }
 
 #titulo_nav

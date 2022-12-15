@@ -127,6 +127,7 @@
 .box-list
 {	
 	text-align: center;	
+	background-color: rgb(10,10,10);
 }
 html {
     height: 100%;

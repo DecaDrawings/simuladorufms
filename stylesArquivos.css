@@ -168,6 +168,7 @@ body
 	padding: 10px;
 	transition: 0.5s;
 	text-decoration: none;
+	padding-top: 0px;
 }
 .lista-de-abas a:hover
 {
@@ -199,7 +200,7 @@ body
 .menu-list
 {
 	width: 100%;
-	margin-top: 10px;
+	margin-top: 20px;
 	grid-area: menu;
 	display: inline;
 }
@@ -207,7 +208,7 @@ body
 {
 	display: inline-flex;
 	text-align: center;
-	margin-top: 20px;
+	
 }
 .lista-de-abas li
 {

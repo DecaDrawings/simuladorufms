@@ -157,6 +157,7 @@ body
 	border-bottom: solid 2px;
 	border-color: white;
 	padding: 10px;
+	padding-top: 0px;
 	transition: 0.5s;
 	text-decoration: none;
 }
@@ -193,12 +194,13 @@ body
 	margin-top: 10px;
 	grid-area: menu;
 	display: inline;
+	margin-top: 20px;
 }
 .lista-de-abas
 {
 	display: inline-flex;
 	text-align: center;
-	margin-top: 20px;
+	
 }
 .lista-de-abas li
 {

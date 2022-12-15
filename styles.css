@@ -318,6 +318,12 @@ h1
 {
 	width: 100%;
 }
+.content-propaganda p 
+{
+	padding: 20px;
+	padding-right: 20px;
+	background-color: rgb(10,10,10);
+}
 .menu-lateral p 
 {
 	padding: 20px;

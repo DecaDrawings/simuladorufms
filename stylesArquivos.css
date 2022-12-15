@@ -360,6 +360,12 @@ h1
 .menu-lateral-content p{
 	padding-left: 20px;
 }
+.content-propaganda p 
+{
+	padding: 20px;
+	padding-right: 20px;
+	background-color: rgb(10,10,10);
+}
 .propaganda-box
 {
 	grid-area: propaganda;

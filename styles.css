@@ -68,6 +68,7 @@
 		background-color: rgb(20,20,20);
 		height: 100%;
 		z-index: 1;
+		text-align: center;
 	}
 	.lista-de-abas
 	{
@@ -122,6 +123,10 @@
 	font-family: 'Source Sans Pro', sans-serif !important;
 	color: white;
 	
+}
+.box-list
+{	
+	text-align: center;	
 }
 html {
     height: 100%;

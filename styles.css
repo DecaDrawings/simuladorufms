@@ -129,6 +129,7 @@
 {	
 	text-align: center;	
 	background-color: rgb(5,5,5);
+	box-shadow: 2px 2px 2px 1px rgb(13 62 149);
 }
 html {
     height: 100%;
@@ -196,7 +197,7 @@ body
 	grid-area: menu;
 	display: inline;
 	margin-top: 20px;
-	box-shadow: 2px 2px 2px 1px rgb(13 62 149);
+	
 }
 .lista-de-abas
 {

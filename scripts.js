@@ -5,8 +5,8 @@ const anoValue = document.getElementById("ano_de_referencia");
 const anoText = anoValue.options[anoValue.selectedIndex].text;
 
 const navElement = document.querySelector(".nav")
-var beforeNav = window.getComputedStyle(navElement,':before')
 
+const beforeNav = document.styleSheets[1].cssRules[0];
 const navElementHeight = navElement.clientHeight + "px;";
 beforeNav.style.setProperty("height", navElementHeight);
 

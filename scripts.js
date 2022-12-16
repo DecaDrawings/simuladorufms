@@ -8,7 +8,7 @@ const navElement = document.querySelector(".nav")
 var beforeNav = window.getComputedStyle(navElement,':before')
 
 const navElementHeight = navElement.clientHeight + "px;";
-beforeNav.style.height = navElementHeight;
+beforeNav.style.setProperty("Height", navElementHeight);
 
 const MEDIALIN  = 13.6985;
 const MEDIAMAT  =  10.8931;

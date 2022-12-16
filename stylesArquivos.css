@@ -48,7 +48,7 @@
     .conteudo_nav
     {
     	grid-area: titulo;
-		grid-template-columns: auto auto;
+		grid-template-columns: auto auto !important;
     	
     }
     .menu-list

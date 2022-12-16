@@ -174,7 +174,7 @@
 		grid-area: search;
     	display: grid;
     	grid-template-areas: "search" !important;        					
-    	grid-template-columns: 100%;
+    	grid-template-columns: 100% !important;
     	align-items: center;
     	text-align: center;
 	}

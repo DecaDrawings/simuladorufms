@@ -139,9 +139,10 @@
 }
 .box-list
 {	
-	text-align: center;	
-	background-color: rgb(5,5,5);
-	box-shadow: inset 0px -9px 0px 0px rgb(13 62 149);
+	margin-top: 20px;
+    text-align: center;
+    background-color: rgb(5,5,5, 0.5);
+    box-shadow: inset 0px -9px 0px 0px rgb(13 62 149);
 }
 html {
     height: 100%;

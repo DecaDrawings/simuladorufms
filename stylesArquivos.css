@@ -173,8 +173,7 @@
 	{
 		grid-area: search;
     	display: grid;
-    	grid-template-areas:
-        					"search";        					
+    	grid-template-areas: "search" !important;        					
     	grid-template-columns: 100%;
     	align-items: center;
     	text-align: center;

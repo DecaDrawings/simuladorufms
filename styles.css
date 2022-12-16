@@ -182,8 +182,8 @@ body
 	background-position-y: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	backdrop-filter: blur(10px);
-	backdrop-filter: brightness(30%);
+	filter: blur(8px);
+  	-webkit-filter: blur(8px);
 	padding-top: 20px;
 	width: 100%;
 	background-image: url("icons/UFMS-750x410.jpg");

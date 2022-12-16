@@ -35,6 +35,7 @@
 		position: fixed;
 		top: 0;
 		grid-template-columns: auto !important;
+		align-items: end;
 		box-shadow: -1px 14px 0px 1px rgb(13 62 149) !important;
     }
 	.nav::before{
@@ -47,7 +48,8 @@
 							 "titulo" !important;
 		grid-template-columns: 100% !important; 
 		text-align: center; 
-		grid-gap: 20px;  	
+		grid-gap: 20px; 
+		justify-items: center; 	
     }
 	.conteudo_nav img{
 		display: inline-flex !important;

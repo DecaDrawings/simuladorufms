@@ -57,6 +57,7 @@
 		align-items: end;
 		box-shadow: none !important;
 		grid-template-rows: max(160px);
+		box-shadow: 0px 9px 0px 1px rgb(13 62 149) !important;
     }
 	.nav::before{
 		

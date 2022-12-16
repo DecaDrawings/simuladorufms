@@ -31,7 +31,7 @@
     }
     .content
     {
-    	margin-top: 150px;
+    	margin-top: 115px;
     }
     .nav
     {
@@ -45,7 +45,7 @@
 		position: fixed;
 		grid-template-columns: auto 80% !important;
 		top: 0;
-		box-shadow: -1px 14px 0px 1px rgb(13 62 149) !important;
+		box-shadow: none !important;
 		align-items: end;
     }
 	.nav::before{

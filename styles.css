@@ -22,7 +22,7 @@
     }
     .content
     {
-    	margin-top: 150px;
+    	margin-top: 1150px;
     }
     .nav
     {
@@ -36,7 +36,7 @@
 		top: 0;
 		grid-template-columns: auto 80% !important;
 		align-items: end;
-		box-shadow: -1px 14px 0px 1px rgb(13 62 149) !important;
+		box-shadow: none !important;
     }
 	.nav::before{
 		height: 200px !important;

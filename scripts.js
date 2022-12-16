@@ -4,6 +4,11 @@ const cursoText = cursoValue.options[cursoValue.selectedIndex].text;
 const anoValue = document.getElementById("ano_de_referencia");
 const anoText = anoValue.options[anoValue.selectedIndex].text;
 
+const navElement = document.querySelector(".nav")
+const beforeNav = document.querySelector(".nav:before")
+const navElementHeight = navElement.clientHeight;
+beforeNav.style.height = navElementHeight;
+
 const MEDIALIN  = 13.6985;
 const MEDIAMAT  =  10.8931;
 const MEDIANAT  = 10.8409;

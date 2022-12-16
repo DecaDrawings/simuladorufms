@@ -33,7 +33,7 @@
   	}
   	.table-php
   	{
-  		min-height: 300px;
+  		min-height: 250px;
   	}
     .content
     {
@@ -178,7 +178,7 @@
     	align-items: center;
     	text-align: center;
 	}
-	.search-text
+	#search-text
 	{
 		width: auto !important;
 	}

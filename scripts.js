@@ -7,7 +7,7 @@ const anoText = anoValue.options[anoValue.selectedIndex].text;
 const navElement = document.querySelector(".nav")
 var beforeNav = window.getComputedStyle(navElement,':before')
 
-const navElementHeight = navElement.clientHeight;
+const navElementHeight = navElement.clientHeight + "px";
 beforeNav.style.height = navElementHeight;
 
 const MEDIALIN  = 13.6985;

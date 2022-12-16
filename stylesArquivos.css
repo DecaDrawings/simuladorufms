@@ -29,7 +29,7 @@
   		height: auto !important;
   		margin-top: 20px !important;
   		padding-bottom: 10px !important;
-		grid-template-rows: 100px 44px 60% !important;
+		grid-template-rows: 60px 44px 60% !important;
   	}
   	.table-php
   	{

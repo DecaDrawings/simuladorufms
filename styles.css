@@ -35,11 +35,13 @@
 		position: fixed;
 		top: 0;
 		grid-template-columns: auto 80% !important;
+		grid-template-rows: max(160px);
 		align-items: end;
 		box-shadow: none !important;
+		grid-template-rows: max(160px);
     }
 	.nav::before{
-		height: 800px !important;
+		height: 200px !important;
 	}
     .conteudo_nav
     {
@@ -50,6 +52,8 @@
 		text-align: center; 
 		grid-gap: 20px; 
 		justify-items: center; 	
+		height: 80%;
+		margin-bottom: 5px;
     }
 	.conteudo_nav img{
 		display: inline-flex !important;

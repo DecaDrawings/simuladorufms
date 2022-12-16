@@ -46,6 +46,7 @@
 		grid-template-columns: auto 80% !important;
 		top: 0;
 		box-shadow: none !important;
+		grid-template-rows: max(160px);
 		align-items: end;
     }
 	.nav::before{
@@ -60,6 +61,8 @@
 		text-align: center;   	
 		grid-gap: 20px;
 		justify-items: center; 
+		height: 80%;
+		margin-bottom: 5px;
     }
 	.conteudo_nav img{
 		display: inline-flex !important;

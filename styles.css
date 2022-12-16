@@ -40,7 +40,7 @@
     {
     	grid-area: titulo;
 		grid-template-areas: "iconUFMS"
-							 "titulo";
+							 "titulo" !important;
 		grid-template-rows: 50% 20% !important;    	
     }
     .menu-list

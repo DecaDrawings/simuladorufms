@@ -179,10 +179,10 @@ body
 }
 .nav
 {
+	backdrop-filter: blur(5px);
 	padding-top: 20px;
 	width: 100%;
-	background-color: rgb(10,10,10);
-	
+	background-image: url("icons/UFMS-750x410.jpg");
 	display: grid;
 	grid-template-areas: "titulo"
 						 "menu";
@@ -219,7 +219,7 @@ body
 	display: grid;
 	grid-area: titulo;
 	grid-template-areas:"iconUFMS titulo";
-	grid-template-columns: 18% 20%;
+	grid-template-columns: 15% 20%;
 	justify-content: center;
 	grid-auto-flow: row;
 	align-items: center;

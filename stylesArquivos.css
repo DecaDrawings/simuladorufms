@@ -225,7 +225,7 @@ body
 	display: grid;
 	grid-area: titulo;
 	grid-template-areas:"iconUFMS titulo";
-	grid-template-columns: 18% 20%;
+	grid-template-columns: 15% 20%;
 	justify-content: center;
 	grid-auto-flow: row;
 	align-items: center;

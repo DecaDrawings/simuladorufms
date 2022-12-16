@@ -187,7 +187,7 @@ body
 }
 .nav
 {
-	padding-top: 20px;
+	
 	width: 100%;
 	background-color: rgb(10,10,10);
 	
@@ -198,6 +198,24 @@ body
 	justify-content: center;
 	grid-template-columns: 100%;
 	box-shadow: 2px 2px 2px 1px rgb(13 62 149);
+}
+.nav:before{
+	background-position-y: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: brightness(10%);
+    /* filter: brightness(30%) brightness(0.5); */
+    	
+    background-image: url(icons/UFMS-750x410.jpg);
+    content: "";
+    position: fixed;
+    display: block;
+    /* left: 0; */
+    width: 100%;
+    height: 180px;
+    /* height: 100%; */
+    /* right: 0; */
+    z-index: -1;
 }
 .menu-list
 {
@@ -222,6 +240,7 @@ body
 }
 .conteudo_nav
 {	
+	padding-top: 20px;
 	display: grid;
 	grid-area: titulo;
 	grid-template-areas:"iconUFMS titulo";

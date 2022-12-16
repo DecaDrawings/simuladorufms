@@ -81,11 +81,6 @@
 	.titulo_nav
 	{
 		display: inline-flex !important;
-		
-	}
-	.titulo_nav
-	{
-		display: inline-flex !important;
 	}
     .menu-list
 	{
@@ -332,7 +327,7 @@ h1
 {
 	display: grid;
 	word-wrap: break-word;
-	
+	background-color: rgb(10,10,10);	
 	grid-area: menu;
 	
 	height: 100%;
@@ -351,7 +346,7 @@ h1
 .propaganda-box
 {
 	grid-area: propaganda;
-	
+	background-color: rgb(10,10,10);	
 	height: 100%;
 	text-align: center;
 }

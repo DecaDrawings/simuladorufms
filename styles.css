@@ -22,7 +22,7 @@
     }
     .content
     {
-    	margin-top: 60px;
+    	margin-top: 150px;
     }
     .nav
     {
@@ -35,6 +35,7 @@
 		position: fixed;
 		top: 0;
 		grid-template-columns: auto !important;
+		box-shadow: -1px 14px 0px 1px rgb(13 62 149) !important;
     }
     .conteudo_nav
     {

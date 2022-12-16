@@ -41,7 +41,7 @@
 		grid-template-rows: max(160px);
     }
 	.nav::before{
-		height: 200px !important;
+		height: 100% !important;
 	}
     .conteudo_nav
     {

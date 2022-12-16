@@ -168,6 +168,23 @@
 	{
 		background-color: gold !important;
 	}
+	.search-box
+	{
+		grid-area: search;
+    	display: grid;
+    	grid-template-areas:
+        					"search";        					
+    	grid-template-columns: 100%;
+    	align-items: center;
+    	text-align: center;
+	}
+	.search-text
+	{
+		width: auto !important;
+	}
+	.search-box a
+	{
+		display: none;
 	}
 *{
 	overflow-x: hidden;

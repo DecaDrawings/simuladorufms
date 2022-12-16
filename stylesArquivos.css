@@ -293,17 +293,6 @@ body
 	
 }
 
-#titulo_nav
-{	
-	justify-content: start;
-	align-items: center;
-	grid-area: titulo;	
-	display: flex;	
-	font-size: 1rem;
-	font-weight: bold;
-	color: black;
-	grid-column: 2;
-}
 h1
 {
 	font-size: 1rem;

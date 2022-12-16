@@ -177,16 +177,20 @@ body
 	position: relative;
 
 }
-.nav
-{
+.nav::before{
 	background-position-y: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 	filter: blur(8px);
   	-webkit-filter: blur(8px);
-	padding-top: 20px;
 	width: 100%;
 	background-image: url("icons/UFMS-750x410.jpg");
+}
+.nav
+{	
+	padding-top: 20px;
+	width: 100%;
+	
 	display: grid;
 	grid-template-areas: "titulo"
 						 "menu";

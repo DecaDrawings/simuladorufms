@@ -197,7 +197,7 @@ body
 }
 .nav
 {	
-	padding-top: 20px;
+	
 	width: 100%;
 	
 	display: grid;
@@ -233,6 +233,7 @@ body
 
 .conteudo_nav
 {	
+	padding-top: 20px;
 	display: grid;
 	grid-area: titulo;
 	grid-template-areas:"iconUFMS titulo";

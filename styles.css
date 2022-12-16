@@ -7,7 +7,7 @@
     	
     background-image: url(icons/UFMS-750x410.jpg);
     content: "";
-    position: relative;
+    position: absolute;
     display: block;
     /* left: 0; */
     width: 100%;

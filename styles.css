@@ -79,12 +79,13 @@
 
 	.box-list
 	{
+		margin-top: 0px !important;
 		top: 0;
 		padding-top: 40px;
 		transition: 1s;
 		position: fixed;
 		width: 0px;
-		background-color: rgb(20,20,20);
+		background-color: rgb(5,5,5, 0.8) !important;
 		height: 100%;
 		z-index: 1;
 		text-align: center;

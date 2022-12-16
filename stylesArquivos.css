@@ -72,15 +72,15 @@
 	.nav::before{
 		height: 100% !important;
 	}
-    .conteudo_nav
+	.conteudo_nav
     {
     	grid-area: titulo;
 		grid-template-areas: "iconUFMS"
 							 "titulo" !important;
 		grid-template-columns: 60% !important; 
-		text-align: center;   	
-		grid-gap: 20px;
-		justify-items: center; 
+		text-align: center; 
+		grid-gap: 20px; 
+		justify-items: center; 	
 		height: 80%;
 		margin-bottom: 5px;
     }

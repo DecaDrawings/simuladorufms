@@ -48,6 +48,7 @@
     .conteudo_nav
     {
     	grid-area: titulo;
+		grid-template-columns: auto auto;
     	
     }
     .menu-list
@@ -189,7 +190,7 @@ body
 {
 	
 	width: 100%;
-	background-color: rgb(10,10,10);
+	
 	
 	display: grid;
 	grid-template-areas: "titulo"

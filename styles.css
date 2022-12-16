@@ -34,7 +34,7 @@
 		align-items: center;
 		position: fixed;
 		top: 0;
-		grid-template-columns: auto !important;
+		grid-template-columns: auto 80% !important;
 		align-items: end;
 		box-shadow: -1px 14px 0px 1px rgb(13 62 149) !important;
     }
@@ -46,13 +46,14 @@
     	grid-area: titulo;
 		grid-template-areas: "iconUFMS"
 							 "titulo" !important;
-		grid-template-columns: 100% !important; 
+		grid-template-columns: 60% !important; 
 		text-align: center; 
 		grid-gap: 20px; 
 		justify-items: center; 	
     }
 	.conteudo_nav img{
 		display: inline-flex !important;
+		width: 70% !important;
 	}
 	.titulo_nav
 	{

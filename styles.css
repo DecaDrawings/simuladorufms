@@ -179,9 +179,11 @@ body
 }
 .nav
 {
+	background-position-y: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	backdrop-filter: blur(5px);
+	backdrop-filter: blur(10px);
+	backdrop-filter: brightness(30%);
 	padding-top: 20px;
 	width: 100%;
 	background-image: url("icons/UFMS-750x410.jpg");

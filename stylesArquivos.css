@@ -54,7 +54,6 @@
     }
     .nav
     {
-		grid-template-columns: auto !important;
     	padding-left: 0 !important;
     	display: grid;
 		grid-template-areas: "botao titulo" !important;
@@ -62,11 +61,12 @@
 		justify-content: start !important;
 		align-items: center;
 		position: fixed;
-		grid-template-columns: auto 80% !important;
 		top: 0;
-		box-shadow: none !important;
+		grid-template-columns: auto 80% !important;
 		grid-template-rows: max(160px);
 		align-items: end;
+		box-shadow: none !important;
+		grid-template-rows: max(160px);
 		box-shadow: 0px 9px 0px 1px rgb(13 62 149) !important;
     }
 	.nav::before{

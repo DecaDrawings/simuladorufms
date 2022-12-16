@@ -81,6 +81,11 @@
 	.titulo_nav
 	{
 		display: inline-flex !important;
+		
+	}
+	.titulo_nav
+	{
+		display: inline-flex !important;
 	}
     .menu-list
 	{

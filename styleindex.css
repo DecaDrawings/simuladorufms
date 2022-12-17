@@ -373,8 +373,8 @@ h1
 .background-img
 {
     width: 100%;
-    position: absolute;
-    
+    position: relative;
+
 }
 .informacoes-date
 {

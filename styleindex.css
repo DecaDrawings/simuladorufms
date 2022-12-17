@@ -386,7 +386,7 @@ h1
     font-weight: bold;
     margin-right: 20px;
 }
-.coluna p 
+.coluna>p 
 {
     font-size: 1.5rem;
     margin: 20px;

@@ -359,16 +359,12 @@ h1
 	grid-area: central;		
 }
 .central-box
-{
-    display: grid;
-    align-items: center;
-    justify-items: center;
+{     
     box-sizing: border-box;
 	padding-top: 0px;
 	padding: 40px;
 	text-align: center;
 	grid-area: informacoes;     
-    background-position: center;
 }
 .background-img
 {

@@ -318,7 +318,9 @@ h1
 }
 .menu-box
 {
+	margin-top: 20px;
 	grid-area: informacoes;
+	text-align: center;
 }
 .menu-box-content
 {
@@ -329,6 +331,8 @@ h1
 {
 	display: grid;
 	grid-template-columns: 20% 80%;
+	align-items: center;
+	justify-items: center;
 }
 .menu-box-content .arquivo-1
 {

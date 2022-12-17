@@ -30,18 +30,18 @@
         display: grid;
         justify-content: center;
         align-items: center;
-        grid-template-areas: "texto"
-                             "conteudo"
-                             "menu"
-                             "propaganda";
-        grid-template-columns: 100%;		
-        
+        grid-template-areas: "central";
+        grid-template-columns: 100%;        
         grid-gap: 20px;
     }
     .content
     {
     	margin-top: 130px;
     }
+	.content-conteudo
+	{
+		grid-template-areas: central;
+	}
     .nav
     {
     	padding-left: 0 !important;
@@ -303,11 +303,17 @@ h1
 	display: grid;
 	justify-content: center;
 	align-items: center;
-	grid-template-areas: "menu texto propaganda"
-						 "menu conteudo propaganda";
+	grid-template-areas: "lateral1 central lateral2";					 
 	grid-template-columns: 20% 60% 20%;		
-	
 	grid-gap: 20px;
+}
+.content-conteudo
+{
+	grid-area: central;
+	display: grid;
+	grid-template-areas: "texto" "calculadora";
+	grid-template-columns: 100%;
+	grid-template-rows: 1fr 1fr;	
 }
 .text-center
 {
@@ -321,7 +327,7 @@ h1
 	padding-top: 0px;
 	padding: 40px;
 	text-align: center;
-	grid-area: conteudo;
+	grid-area: calculadora;
 }
 .formulario_box
 {	

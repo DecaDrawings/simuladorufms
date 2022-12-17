@@ -1,6 +1,6 @@
 criarTabela("");
 var input = document.getElementById("search-text-peso");
-input.addEventListener("keyup", function(){
+input.addEventListener("onchange", function(){
     console.log(input.value);
     criarTabela(input.value);
 });

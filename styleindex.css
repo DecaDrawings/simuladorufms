@@ -364,6 +364,18 @@ h1
 	grid-template-columns: 100%;		
 	grid-gap: 20px;
 }
+.arquivo-1
+{
+	display: grid;
+	grid-template-columns: 20% 50%;
+	align-items: center;
+	justify-items: center;
+	justify-content: center;
+}
+.arquivo-1 img
+{
+	width: 100%;
+}
 .content-conteudo
 {
     width: 100%;    

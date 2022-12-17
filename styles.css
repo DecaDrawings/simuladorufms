@@ -334,6 +334,7 @@ h1
 	grid-template-columns: 20% 50%;
 	align-items: center;
 	justify-items: center;
+	justify-content: center;
 }
 .menu-box-content .arquivo-1 img
 {

@@ -1,4 +1,4 @@
-criarTabela("");
+criarTabela("TODOS OS CURSOS");
 var input = document.getElementById("search-text-peso");
 input.addEventListener("change", function(){
     console.log(input.value);
@@ -9,7 +9,7 @@ function criarTabela(numInsc)
 {    
     var tabela = document.getElementsByClassName("tabela")[0];
     var dados = "<tr><th>Nome do Curso</th>" + "<th>PRED</th>" + "<th>PMAT</th><th>PLIN</th><th>PHUM</th><th>PNAT</th>";   
-    if (numInsc != "")
+    if (numInsc != "TODOS OS CURSOS")
     {            
         for(let i = 0; i<pesos.length; i++)
         {

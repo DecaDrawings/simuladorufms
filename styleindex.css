@@ -410,8 +410,7 @@ h1
     color: black;
     font-weight: bold;
     margin-right: 20px;
-    display: flex;
-    flex-direction: column;
+    display: grid;    
     align-items: center;
     padding-bottom: 20px;
 }

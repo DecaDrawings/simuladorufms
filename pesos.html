@@ -108,7 +108,7 @@
 	<script>
 	
         var navTamanho = document.getElementsByClassName("nav")[0].clientHeight;
-		var contentTamanho = document.querySelector('.content').getBoundingClientRect().bottom;
+		var contentTamanho = document.getElementsByClassName("content")[0].clientHeight;
 		var foot = document.getElementsByClassName("foot")[0];
 		var viewport_height = window.innerHeight;
 		foot.style.height = viewport_height - (contentTamanho + navTamanho) - 9 + "px";

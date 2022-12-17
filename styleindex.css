@@ -391,11 +391,11 @@ h1
 }
 .coluna2
 {
-    grid-area: coluna1;
+    grid-area: coluna2;
 }
 .coluna3
 {
-    grid-area: coluna1;
+    grid-area: coluna3;
 }
 .noticia
 {

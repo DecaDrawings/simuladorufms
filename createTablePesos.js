@@ -7,10 +7,10 @@ input.addEventListener("keyup", function(){
 
 function criarTabela(numInsc)
 {    
+    var tabela = document.getElementsByClassName("tabela")[0];
+    var dados = "<tr><th>Nome do Curso</th>" + "<th>PRED</th>" + "<th>PMAT</th><th>PLIN</th><th>PHUM</th><th>PNAT</th>";   
     if (numInsc != "")
-    {
-        var tabela = document.getElementsByClassName("tabela")[0];
-        var dados = "<tr><th>Nome do Curso</th>" + "<th>PRED</th>" + "<th>PMAT</th><th>PLIN</th><th>PHUM</th><th>PNAT</th>";       
+    {            
         for(let i = 0; i<basedeDados.length; i++)
         {
             if(pesos[i][0] == numInsc)

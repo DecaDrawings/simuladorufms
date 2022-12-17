@@ -373,6 +373,7 @@ h1
     background-image: url("/documents/11-TYPTK.040822-Nossas-Bandeiras-direcionadas-para-o-seu-futuro-UFMS.-FAALC-1536x1024.jpeg");
     background-size: cover;
     filter: brightness(50%);
+    background-position: center;
 }
 .informacoes-date
 {

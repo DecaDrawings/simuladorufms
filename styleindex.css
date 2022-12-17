@@ -20,6 +20,11 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap');
 @media screen and (max-width: 800px) {
+    .informacoes-date
+    {
+        height: auto !important;
+        max-height: auto !important;
+    }
   	body{
 		font-family: 'Source Sans Pro', sans-serif !important;
   	}
@@ -39,8 +44,14 @@
     }
 	.content-conteudo
 	{		
-		grid-template-areas: central;
+		grid-template-areas:
+        "central"
+        "coluna1"
+        "coluna2"
+        "coluna3" !important;
 		height: 100%;
+        grid-template-columns: 100% !important;
+        grid-template-rows: auto !important;
 	}
     .nav
     {

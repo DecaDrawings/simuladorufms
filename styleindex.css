@@ -363,15 +363,16 @@ h1
 {     
     box-sizing: border-box;
 	padding-top: 0px;
-	
+	height: 100%;
 	text-align: center;
-	grid-area: informacoes;     
+	grid-area: informacoes;  
+    overflow: hidden;   
 }
 .background-img
 {
     width: 100%;
     position: relative;
-
+    height: 100%;
 }
 .informacoes-date
 {

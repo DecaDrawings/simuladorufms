@@ -366,6 +366,7 @@ h1
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     grid-template-rows: auto 400px;
     grid-gap: 20px;
+    overflow: hidden;
 }
 .central-box
 {    
@@ -397,12 +398,17 @@ h1
 .coluna>p::after
 {
     background-color: #c5c5c5;
-    bottom: -15px;
+    
     content: "";
     height: 2px;
     left: 0;
-    width: 30px;
-    position: absolute;
+    
+    top: 467px;
+    
+    right: 50%;
+    width: 28px;
+    display: block;
+   
     z-index: 0;
 }
 .coluna1

@@ -383,6 +383,7 @@ h1
     text-align: center;
     color: black;
     font-weight: bold;
+    border-left: solid 2px rgb(20, 17, 17);
 }
 .coluna1
 {

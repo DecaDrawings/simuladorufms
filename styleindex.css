@@ -363,7 +363,7 @@ h1
 {     
     box-sizing: border-box;
 	padding-top: 0px;
-	padding: 40px;
+	
 	text-align: center;
 	grid-area: informacoes;     
 }

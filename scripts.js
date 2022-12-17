@@ -20,7 +20,7 @@ var EPLIN;
 var mediaFinal;
 
 var resultadoBox = document.getElementsByClassName("formulario_box")[0];
-window.addEventListener('DOMContentLoaded', (event) => {
+window.addEventListener('load', (event) => {
     carregarFoot();
 });
 function carregarFoot()

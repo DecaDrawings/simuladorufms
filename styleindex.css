@@ -365,6 +365,7 @@ h1
         "coluna1 coluna2 coluna3";
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     grid-template-rows: auto 400px;
+    grid-gap: 20px;
 }
 .central-box
 {    
@@ -383,7 +384,12 @@ h1
     text-align: center;
     color: black;
     font-weight: bold;
-    border-left: solid 1px rgb(207, 207, 207);
+    margin-right: 20px;
+}
+.coluna p 
+{
+    font-size: 1.5rem;
+    margin: 20px;
 }
 .coluna1
 {

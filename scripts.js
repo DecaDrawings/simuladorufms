@@ -21,11 +21,15 @@ var mediaFinal;
 
 var resultadoBox = document.getElementsByClassName("formulario_box")[0];
 
+function carregarFoot()
+{	
 var navTamanho = document.getElementsByClassName("nav")[0].clientHeight;
 var contentTamanho = document.getElementsByClassName("content")[0].clientHeight;
 var foot = document.getElementsByClassName("foot")[0];
 var viewport_height = window.innerHeight;
 foot.style.height = viewport_height - (contentTamanho + navTamanho) + "px";
+}
+carregarFoot();
 
 var menu = document.getElementById("box-lista");
 function verificarMenu()

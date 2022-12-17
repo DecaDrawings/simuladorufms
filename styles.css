@@ -324,15 +324,16 @@ h1
 }
 .menu-box-content
 {
+	padding: 40px;
 	display: block;
 	box-sizing: border-box;	
 }
 .menu-box-content .arquivo-1
 {
 	display: grid;
-	grid-template-columns: 20% 80%;
+	grid-template-columns: 20% 50%;
 	align-items: center;
-	justify-items: center;
+	justify-items: start;
 }
 .menu-box-content .arquivo-1
 {

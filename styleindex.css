@@ -358,6 +358,7 @@ h1
     height: 100%;
 	grid-area: central;		
     position: relative;
+    z-index: 0;
 }
 .central-box
 {     

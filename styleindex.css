@@ -415,12 +415,12 @@ h1
     align-items: center;
     padding-bottom: 20px;
 }
-.titulo>p 
+.coluna>p 
 {
     font-size: 1.5rem;
     margin: 20px;
 }
-.titulo>p::after
+.coluna>p::after
 {
     background-color: #c5c5c5;
     

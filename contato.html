@@ -7,8 +7,8 @@
 <meta name="keywords" content="HTML, CSS, JavaScript">
 <meta name="author" content="Guizão">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="stylesArquivos.css">
-<link rel="stylesheet" href="stylesPhoneArquivos.css">
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="stylesPhone.css">
 <link rel="icon" type="imagem/png" href="/icons/favicon.ico" />
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -32,46 +32,47 @@ crossorigin="anonymous"></script>
 				<a class="" href="index.html">
 					<img class="icon" src="/icons/home_100px.png">
 					<li>Home</li></a>				
-				<a class="active" href="arquivos.html">
+				<a class="" href="arquivos.html">
 					<img class="icon" src="/icons/archive_48px.png">
 					<li>Lista Preliminar</li></a>	
-				<a href="arquivosPDF.html">
+				<a href="arquivosPDF.html" class="">
 					<img class="icon" src="/icons/list_view_100px.png">
 					<li>Arquivos</li></a>	
 				<a href="pesos.html">
 					<img class="icon" src="/icons/weight_60px.png">
-					<li>Pesos</li></a>
-				<a href="pesos.html" class="active">
+					<li>Pesos</li></a>		
+				<a href="contato.html" class="active">
 					<img class="icon" src="/icons/phone_100px.png">
-					<li>Contato</li></a>						
+					<li>Contato</li></a>					
 				</ul>
 			</div>
 		</div>	
 	</div>
-	<div class="content">	
-		<div class="central-box">
-			<p class="text-central">A lista preliminar será atualizada aqui em janeiro!
-				<br>Ultima atualização: 16/12/2022
-			</p>			
-			<div class="search-box">	
-				<input id="search-text" type="text" name="search-insc" placeholder="Procurar número de inscrição:">
-				<a><img src="/icons/search_100px.png" class="search-icon" ></a>
-			</div>	
-			<div class="table-php">
-				<table class="tabela">
-				</table>
-			</div>							
-		</div>			
+	<div class="content">
+		
+	<div class="content-conteudo">
+		<div class="text-center">
+			<h1>Contato:</h1>
+			<br>						
+        </div>
+        <div class="menu-box">
+            <div class="menu-box-content">                
+                <div class="contato-1">
+                    <img src="/icons/pdf_96px.png">
+                    <a href="documents/LISTA GERAL COM ACERTOS (4).pdf">Classificação Geral 2022 + Acertos</a>
+                </div>	                
+            </div>			
+        </div>
+		
+	</div>
 	</div>
 	<div class="foot">
 		<div id="nome_do_criador">
 			<p>Created By Guizão - @Guiza1m</p>
 		</div>
 	</div>
-	
 	<script type="text/javascript" src="scripts.js"></script>
 	<script type="text/javascript" src="notes.js"></script>
-	<script type="text/javascript" src="createTable.js"></script>
 	<script>
 	
 		var navTamanho = document.getElementsByClassName("nav")[0].clientHeight;

@@ -340,6 +340,18 @@ h1
 {
 	width: 100%;
 }
+.menu-box-content .contato-1
+{
+	display: grid;
+	grid-template-columns: 20% 50%;
+	align-items: center;
+	justify-items: center;
+	justify-content: center;
+}
+.menu-box-content .contato-1 img
+{
+	width: 100%;
+}
 .text-center
 {
 	grid-area: texto;

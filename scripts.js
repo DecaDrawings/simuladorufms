@@ -4,7 +4,11 @@ const cursoText = cursoValue.options[cursoValue.selectedIndex].text;
 const anoValue = document.getElementById("ano_de_referencia");
 const anoText = anoValue.options[anoValue.selectedIndex].text;
 
-
+const navTamanho = document.getElementsByClassName("nav")[0].clientHeight;
+const contentTamanho = document.getElementsByClassName("content")[0].clientHeight;
+const foot = document.getElementsByClassName("foot")[0];
+var viewport_width = window.innerWidth;
+foot.style.height = viewport_width - (contentTamanho + navTamanho) + "px;";
 
 const MEDIALIN  = 13.6985;
 const MEDIAMAT  =  10.8931;

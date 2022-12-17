@@ -26,6 +26,7 @@
   	}
   	.central-box
   	{
+		height: 100%;
   		margin-top: 20px !important;
   		padding-bottom: 10px !important;
 		grid-template-columns: 100%;	
@@ -203,7 +204,7 @@ html {
 body
 {
 	background-color: white;
-	height: 100vh;
+	height: 100%;
 	width: 100%;
 	box-sizing: border-box;
 	overflow-x: hidden;

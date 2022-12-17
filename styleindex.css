@@ -369,7 +369,8 @@ h1
 	padding: 40px;
 	text-align: center;
 	grid-area: informacoes;
-    background: rgb(20,20,20);	
+    min-height: 300px;
+    background-image: url("/documents/11-TYPTK.040822-Nossas-Bandeiras-direcionadas-para-o-seu-futuro-UFMS.-FAALC-768x512.jpeg");
 }
 .formulario_box
 {	

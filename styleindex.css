@@ -378,12 +378,12 @@ h1
 }
 .coluna
 {
-    background-color: white;
+    background-color: rgb(20, 20, 20);
     width: 100%;
     text-align: center;
     color: black;
     font-weight: bold;
-    border-left: solid 2px rgb(20, 17, 17);
+    border-left: solid 1px rgb(207, 207, 207);
 }
 .coluna1
 {

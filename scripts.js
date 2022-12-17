@@ -29,7 +29,7 @@ var foot = document.getElementsByClassName("foot")[0];
 var viewport_height = window.innerHeight;
 foot.style.height = viewport_height - (contentTamanho + navTamanho) + "px";
 }
-carregarFoot();
+
 
 var menu = document.getElementById("box-lista");
 function verificarMenu()

@@ -347,9 +347,9 @@ h1
 	display: grid;
 	justify-content: center;
 	align-items: center;
-	grid-template-areas: "central"
-                 "coluna1 coluna2 coluna3";	    				 
-	grid-template-columns: 100% repeat(auto-fit, minmax(250px, 1fr));		
+	grid-template-areas: "central";
+                 	    				 
+	grid-template-columns: 100%;		
 	grid-gap: 20px;
 }
 .content-conteudo
@@ -360,15 +360,19 @@ h1
 	grid-area: central;		
     position: relative;
     z-index: 0;
+    display: grid;
+    grid-template-areas: "central"
+                 "coluna1 coluna2 coluna3";	   
+    grid-template-columns: 100% repeat(auto-fit, minmax(250px, 1fr));		 
 }
 .central-box
 {     
     box-sizing: border-box;
 	padding-top: 0px;
 	height: 100%;
-	text-align: center;
-	grid-area: informacoes;  
-    overflow: hidden;   
+	text-align: center;	
+    overflow: hidden;  
+    grid-area: central; 
 }
 .coluna1
 {

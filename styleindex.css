@@ -376,9 +376,18 @@ h1
     overflow: hidden;  
     grid-area: central; 
 }
+.coluna
+{
+    background-color: white;
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+}
 .coluna1
 {
     grid-area: coluna1;
+    
 }
 .coluna2
 {

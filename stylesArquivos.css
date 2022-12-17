@@ -30,29 +30,30 @@
   		margin-top: 20px !important;
   		padding-bottom: 10px !important;
 		grid-template-rows: 60px 44px 60% !important;
+		grid-area: central !important;
   	}
   	.table-php
   	{
   		min-height: 210px;
   	}
     .content
-    {
-    
+    {    
         background-color: rgb(40,40,40);
         display: grid;
         justify-content: center;
         align-items: center;
-        grid-template-areas: "conteudo"
-                             "menu"
-                             "propaganda" !important;
-        grid-template-columns: 100%;		
-       	grid-template-rows: min-content auto auto;
+        grid-template-areas: "conteudo" !important;
+        grid-template-columns: 100%;	       	
         grid-gap: 20px;
+		margin-top: 130px;
     }
-    .content
-    {
-    	margin-top: 130px;
-    }
+	.content-conteudo
+	{
+		grid-area: central;
+		display: grid;
+		grid-template-areas: "central" ;
+		grid-template-columns: 100%;
+	}    
     .nav
     {
     	padding-left: 0 !important;
@@ -324,18 +325,24 @@ h1
 	display: grid;
 	justify-content: center;
 	align-items: center;
-	grid-template-areas: "menu conteudo propaganda";
-						 
+	grid-template-areas: "lateral1 central lateral2";					 
 	grid-template-columns: 20% 60% 20%;		
-	overflow: hidden;
 	grid-gap: 20px;
+}
+.content-conteudo
+{
+	grid-area: central;
+	display: grid;
+	grid-template-areas: "central" ;
+	grid-template-columns: 100%;
+		
 }
 .central-box
 {
 	padding-top: 0px;
 	padding: 40px;
 	text-align: center;
-	grid-area: conteudo;
+	grid-area: central;
 	height: 100%;
 	margin-top: 100px;
 	display: grid;
@@ -399,87 +406,7 @@ h1
 {
 	width: 100%;
 }
-.menu-lateral
-{
-	display: grid;
-	word-wrap: break-word;
-	background-color: rgb(10,10,10);	
-	grid-area: menu;
-	
-	height: 100%;
-	text-align: center;
-}
-.menu-lateral-content
-{
-	display: block;
-	padding: 20px;
-	padding-left: 0px;
-	padding-right: 20px;
-}
-.menu-lateral-content p{
-	padding-left: 20px;
-}
-.content-propaganda>p 
-{
-	padding: 20px;
-	padding-right: 20px;
-	background-color: rgb(10,10,10);
-}
-.propaganda-box
-{
-	grid-area: propaganda;
-	background-color: rgb(10,10,10);	
-	height: 100%;
-	text-align: center;
-}
-.arquivo-1
-{
-	display: grid;
-	grid-template-columns: 20% 80%; 
-	justify-content: center;
-	text-align: center;
-	align-items: center;
-	margin: 20px;
-}
-.arquivo-1 img
-{
-	width: 100%;
-}
-.menu-lateral p 
-{
-	padding: 20px;
-	background-color: rgb(10,10,10);
-}
-.content-propaganda
-{
-	padding: 20px;
-	padding-left: 20px;
-	padding-right: 0px;
-	display: block;	
-}
-.my-instagram
-{
-	cursor: grab;
-	display: grid;
-	box-sizing: border-box;
-	grid-row: 1;
-	grid-template-columns: 20% 80%;	
-	justify-items: start;
-	align-items: center;
-}
-.adsbygoogle
-{
-	overflow: hidden;
-}
-.anuncio-box
-{
-	overflow-y: hidden;
-	margin-top: 20px;
-}
-.my-instagram img
-{
-	width: 100%;
-}
+
 .formulario_box
 {	
 	box-shadow: 2px 2px 2px 1px rgb(13 62 149);

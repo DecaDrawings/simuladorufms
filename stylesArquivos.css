@@ -376,6 +376,10 @@ h1
 	color: white;
 	background-color: rgb(10,10,10);
 }
+.search-box #search-text-peso:focus
+{
+	outline: none;
+}
 .search-box input:focus
 {
 	outline: none;

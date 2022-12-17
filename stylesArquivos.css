@@ -26,11 +26,10 @@
   	}
   	.central-box
   	{
-		height: 100%;
-  		margin-top: 20px !important;
-  		padding-bottom: 10px !important;
+		height: 100%;  		  		
 		grid-template-columns: 100%;	
 		grid-area: conteudo !important;
+		box-sizing: border-box;
   	}
   	.table-php
   	{
@@ -46,7 +45,8 @@
         grid-template-columns: 100%;
 		grid-template-rows: 100vw;		       	
         grid-gap: 20px;
-		margin-top: 130px;
+		margin-top: 169px;
+		padding: 0px !important;
     }	
     .nav
     {

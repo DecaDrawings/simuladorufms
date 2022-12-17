@@ -29,8 +29,8 @@
   		height: auto !important;
   		margin-top: 20px !important;
   		padding-bottom: 10px !important;
-		grid-template-rows: 60px 44px 60% !important;
-		grid-area: central !important;
+		grid-template-columns: 100%;	
+		grid-area: conteudo !important;
   	}
   	.table-php
   	{
@@ -46,14 +46,7 @@
         grid-template-columns: 100%;	       	
         grid-gap: 20px;
 		margin-top: 130px;
-    }
-	.content-conteudo
-	{
-		grid-area: central;
-		display: grid;
-		grid-template-areas: "central" ;
-		grid-template-columns: 100%;
-	}    
+    }	
     .nav
     {
     	padding-left: 0 !important;
@@ -328,20 +321,12 @@ h1
 	grid-template-columns: 20% 60% 20%;		
 	grid-gap: 20px;
 }
-.content-conteudo
-{
-	grid-area: central;
-	display: grid;
-	grid-template-areas: "central" ;
-	grid-template-columns: 100%;		
-}
 .central-box
 {
 	padding-top: 0px;
 	padding: 40px;
 	text-align: center;
-	grid-area: central;
-	height: 100%;	
+	grid-area: central;		
 	display: grid;
 	grid-template-areas: "text"
 						 "search"

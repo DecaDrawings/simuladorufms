@@ -357,6 +357,7 @@ h1
     max-height: 500px;
     height: 100%;
 	grid-area: central;		
+    position: relative;
 }
 .central-box
 {     
@@ -379,6 +380,9 @@ h1
     background-color: rgb(10,10,10,0.5);
     border-radius: 10px;
     border: solid 2px #1a1a1a1c;
+    position: absolute;
+    z-index: 1000;
+    top: 50%;
 }
 .formulario_box
 {	

@@ -4,12 +4,6 @@ const cursoText = cursoValue.options[cursoValue.selectedIndex].text;
 const anoValue = document.getElementById("ano_de_referencia");
 const anoText = anoValue.options[anoValue.selectedIndex].text;
 
-const navTamanho = document.getElementsByClassName("nav")[0].clientHeight;
-const contentTamanho = document.getElementsByClassName("content")[0].clientHeight;
-const foot = document.getElementsByClassName("foot")[0];
-var viewport_height = window.innerHeight;
-foot.style.height = viewport_height - (contentTamanho + navTamanho) + "px;";
-
 const MEDIALIN  = 13.6985;
 const MEDIAMAT  =  10.8931;
 const MEDIANAT  = 10.8409;
@@ -27,6 +21,11 @@ var mediaFinal;
 
 var resultadoBox = document.getElementsByClassName("formulario_box")[0];
 
+var navTamanho = document.getElementsByClassName("nav")[0].clientHeight;
+var contentTamanho = document.getElementsByClassName("content")[0].clientHeight;
+var foot = document.getElementsByClassName("foot")[0];
+var viewport_height = window.innerHeight;
+foot.style.height = viewport_height - (contentTamanho + navTamanho) + "px";
 
 var menu = document.getElementById("box-lista");
 function verificarMenu()

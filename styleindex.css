@@ -367,7 +367,8 @@ h1
     grid-template-rows: auto 400px;
 }
 .central-box
-{     
+{    
+    max-height: 400px;
     box-sizing: border-box;
 	padding-top: 0px;
 	height: 100%;
@@ -407,7 +408,7 @@ h1
     display: grid;
     box-sizing: border-box;
     height: 100%;
-    max-height: 500px;
+    max-height: 400px;
     justify-items: center;
     align-items: center;
     position: absolute;

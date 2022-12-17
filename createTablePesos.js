@@ -11,7 +11,7 @@ function criarTabela(numInsc)
     var dados = "<tr><th>Nome do Curso</th>" + "<th>PRED</th>" + "<th>PMAT</th><th>PLIN</th><th>PHUM</th><th>PNAT</th>";   
     if (numInsc != "")
     {            
-        for(let i = 0; i<basedeDados.length; i++)
+        for(let i = 0; i<pesos.length; i++)
         {
             if(pesos[i][0] == numInsc)
             {

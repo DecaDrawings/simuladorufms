@@ -378,12 +378,19 @@ h1
 {
     filter: brightness(100%);
     padding: 20px;
-    background-color: rgb(10,10,10,0.5);
-    border-radius: 10px;
-    border: solid 2px #1a1a1a1c;
+    display: grid;
+    justify-items: center;
+    align-items: center;
     position: absolute;
     z-index: 1000;
     top: 50%;
+    width: 100%;
+}
+.content-informacoes
+{
+    background-color: rgb(10,10,10,0.5);
+    border-radius: 10px;
+    border: solid 2px #1a1a1a1c;
 }
 .formulario_box
 {	

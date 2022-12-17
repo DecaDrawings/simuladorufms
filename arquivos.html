@@ -61,5 +61,15 @@
 	<script type="text/javascript" src="scripts.js"></script>
 	<script type="text/javascript" src="notes.js"></script>
 	<script type="text/javascript" src="createTable.js"></script>
+	<script>
+	function carregarFoot()
+		{	
+			var navTamanho = document.getElementsByClassName("nav")[0].clientHeight;
+			var contentTamanho = document.getElementsByClassName("content")[0].clientHeight;
+			var foot = document.getElementsByClassName("foot")[0];
+			var viewport_height = window.innerHeight;
+			foot.style.height = viewport_height - (contentTamanho + navTamanho) + "px";
+		}
+	</script>
 </body>
 </html>

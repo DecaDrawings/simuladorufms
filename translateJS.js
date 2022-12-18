@@ -9,8 +9,8 @@ var quantasVezes = Math.round(scrollBox.scrollWidth / scrollBox.clientWidth);
 var quantasVezes1 = Math.round(scrollBox1.scrollWidth / scrollBox1.clientWidth);
 var quantasVezes2 = Math.round(scrollBox2.scrollWidth / scrollBox2.clientWidth);
 var contador = 1;
+var contador1 = 1;
 var contador2 = 1;
-var contador3 = 1;
 function tranlateScrollBox()
 {     
     if (scrollBox.scrollWidth > scrollBox.clientWidth)

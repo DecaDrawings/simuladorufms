@@ -18,16 +18,16 @@ var elementoPai2 = scrollBox2.parentElement;
 
 for(var i = 0; i < quantasVezes; i++)
 {
-    elementoPai.innerHTML = "<span class='span' style='translate:"+(10*i)+"px;'></span>";
+    elementoPai.innerHTML += "<span class='span' style='translate:"+(10*i)+"px;'></span>";
     
 }
 for(var i = 0; i < quantasVezes1; i++)
 {
-    elementoPai1.innerHTML = "<span class='span' style='translate:"+(10*i)+"px;'></span>";
+    elementoPai1.innerHTML += "<span class='span' style='translate:"+(10*i)+"px;'></span>";
 }
 for(var i = 0; i < quantasVezes2; i++)
 {
-    elementoPai2.innerHTML = "<span class='span' style='translate:"+(10*i)+"px;'></span>";
+    elementoPai2.innerHTML += "<span class='span' style='translate:"+(10*i)+"px;'></span>";
 }
 
 

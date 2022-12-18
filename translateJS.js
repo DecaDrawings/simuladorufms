@@ -1,10 +1,9 @@
 setInterval(tranlateScrollBox, 2000);
+var scrollBox = document.getElementsByClassName("scroll-box")[0];
+var scrollBox1 = document.getElementsByClassName("scroll-box")[1];
+var scrollBox2 = document.getElementsByClassName("scroll-box")[2];  
 function tranlateScrollBox()
-{
-    var scrollBox = document.getElementsByClassName("scroll-box")[0];
-    var scrollBox1 = document.getElementsByClassName("scroll-box")[1];
-    var scrollBox2 = document.getElementsByClassName("scroll-box")[2];   
-    
+{ 
     if (scrollBox.scrollWidth > scrollBox.clientWidth)
     {
         console.log("1 é overflow")

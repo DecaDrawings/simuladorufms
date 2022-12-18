@@ -38,7 +38,8 @@ function tranlateScrollBox()
             if(contador == quantasVezes)
             {                
                 contador = 0;
-            }            
+            }
+            console.log(contador);            
         }          
     }
     if (scrollBox1.scrollWidth > scrollBox1.clientWidth)
@@ -64,6 +65,7 @@ function tranlateScrollBox()
             {                
                 contador1 = 0;
             }
+            console.log(contador1);    
         }         
     }
     if (scrollBox2.scrollWidth > scrollBox2.clientWidth)
@@ -89,6 +91,7 @@ function tranlateScrollBox()
             {                
                 contador2 = 0;
             }
+            console.log(contador2);    
         }     
     }
 }

@@ -8,9 +8,9 @@ var checarTranslado2 = false;
 var quantasVezes = Math.round(scrollBox.scrollWidth / scrollBox.clientWidth);
 var quantasVezes1 = Math.round(scrollBox1.scrollWidth / scrollBox1.clientWidth);
 var quantasVezes2 = Math.round(scrollBox2.scrollWidth / scrollBox2.clientWidth);
-var contador = 0;
-var contador2 = 0;
-var contador3 = 0;
+var contador = 1;
+var contador2 = 1;
+var contador3 = 1;
 function tranlateScrollBox()
 {     
     if (scrollBox.scrollWidth > scrollBox.clientWidth)
@@ -27,32 +27,26 @@ function tranlateScrollBox()
     }
     if (scrollBox1.scrollWidth > scrollBox1.clientWidth)
     {
-        console.log("1 é overflow")
-        var translate = scrollBox1.style.translate;
-        if(checarTranslado1 == false)
+        if(contador1<quantasVezes1)
         {
-            scrollBox1.style.transform = "translate(-100%)";
-            checarTranslado1 = true;
-        }
-        else
-        {
-            scrollBox1.style.transform = "translate(0)";
-            checarTranslado1 = false;
-        }        
+            scrollBox1.style.transform = "translate(-" + (contador1 * 100) + "%)";
+            contador1 += 1;
+            if(contador1 == quantasVezes1)
+            {
+                contador1 = 0;
+            }
+        }         
     }
     if (scrollBox2.scrollWidth > scrollBox2.clientWidth)
     {
-        console.log("1 é overflow")
-        var translate = scrollBox2.style.translate;
-        if(checarTranslado2 == false)
+        if(contador2<quantasVezes2)
         {
-            scrollBox2.style.transform = "translate(-100%)";
-            checarTranslado2 = true;
-        }
-        else
-        {
-            scrollBox2.style.transform = "translate(0)";
-            checarTranslado2 = false;
-        }        
+            scrollBox2.style.transform = "translate(-" + (contador2 * 100) + "%)";
+            contador2 += 1;
+            if(contador2 == quantasVezes2)
+            {
+                contador2 = 0;
+            }
+        }     
     }
 }

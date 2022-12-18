@@ -484,12 +484,14 @@ h1
     grid-area: coluna1;
     
 }
-.coluna1::after{
+.span{
 	content: "";
 	width: 5px;
 	height: 5px;
 	background-color: white;
 	border-radius: 50%;
+	position: absolute;
+	bottom: 40px;
 }
 .coluna2
 {

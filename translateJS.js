@@ -23,10 +23,12 @@ function tranlateScrollBox()
             scrollBox.style.transform = "translate(-" + (contador * 100) + "%)";
             if(contador == 0){
                 document.querySelector(".span:nth-of-type(" + (contador+1) + ")").style.transform = "scale(1.2)";
+                console.write(contador);
             }
             else{
                 document.querySelector(".span:nth-of-type(" + (contador) + ")").style.transform = "scale(1)";
                 document.querySelector(".span:nth-of-type(" + (contador + 1) + ")").style.transform = "scale(1.2)";
+                console.write(contador);
             }
 
             contador += 1;

@@ -154,18 +154,7 @@ crossorigin="anonymous"></script>
         var elementoPai1 = scrollBox1.parentElement;
         var elementoPai2 = scrollBox2.parentElement;
         
-        for(var a = 0; a < quantasVezes; a++)
-        {
-            elementoPai.innerHTML += "<span class='span' style='translate:"+(10*a)+"px;'></span>";
-        }
-        for(var b = 0; b < quantasVezes1; b++)
-        {
-            elementoPai1.innerHTML += "<span class='span' style='translate:"+(10*b)+"px;'></span>";
-        }
-        for(var c = 0; c < quantasVezes2; c++)
-        {
-            elementoPai2.innerHTML += "<span class='span' style='translate:"+(10*c)+"px;'></span>";
-        }
+        
         setInterval(tranlateScrollBox, 5000);
 	
 		var navTamanho = document.getElementsByClassName("nav")[0].clientHeight;

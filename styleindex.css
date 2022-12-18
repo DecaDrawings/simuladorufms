@@ -408,21 +408,43 @@ h1
     width: 100%;
     text-align: center;
     color: black;
-    font-weight: bold;
-    
+    font-weight: bold;    
     overflow-x: hidden;
     padding-bottom: 20px;
     margin-right: 20px;
     display: grid;
-    grid-template-areas: "titulo";
-    grid-auto-flow: column;
-    grid-template-rows: 69px repeat(auto-fit, minmax(100px, 100px));
+    grid-template-areas: "titulo" "scroll";     
     grid-template-columns: 100%;
-    padding-bottom: 70px;
-    grid-auto-columns: 100%;
+    padding-bottom: 70px;    
     grid-gap: 40px;
     justify-items: center;
     align-items: start;
+}
+.scroll-box
+{
+	grid-area: scroll;
+	display: grid;
+	grid-auto-flow: column;
+	grid-template-columns: 100%;
+	grid-gap: 20px;
+}
+.scroll-box li
+{
+	box-shadow: 2px 2px 6px 0px rgb(10 10 10);
+    min-height: 100px;
+	height: 50%;
+    width: 80%;
+    padding: 10px;
+    background-color: rgb(10,10,10);
+    margin-bottom: 20px;
+}
+.noticia
+{
+    width: 100%;
+}
+.scroll-box li:hover
+{
+    background-color: rgb(20, 20, 20);
 }
 .coluna>p 
 {
@@ -461,20 +483,7 @@ h1
 {
     grid-area: coluna3;
 }
-.noticia
-{
-    box-shadow: 2px 2px 6px 0px rgb(10 10 10);
-    min-height: 100px;
-	height: 50%;
-    width: 80%;
-    padding: 10px;
-    background-color: rgb(10,10,10);
-    margin-bottom: 20px;
-}
-.noticia:hover
-{
-    background-color: rgb(20, 20, 20);
-}
+
 
 .background-img
 {

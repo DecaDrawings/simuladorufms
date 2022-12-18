@@ -157,7 +157,6 @@ crossorigin="anonymous"></script>
         for(var a = 0; a < quantasVezes; a++)
         {
             elementoPai.innerHTML += "<span class='span' style='translate:"+(10*a)+"px;'></span>";
-
         }
         for(var b = 0; b < quantasVezes1; b++)
         {
@@ -167,6 +166,7 @@ crossorigin="anonymous"></script>
         {
             elementoPai2.innerHTML += "<span class='span' style='translate:"+(10*c)+"px;'></span>";
         }
+        setInterval(tranlateScrollBox, 5000);
 	
 		var navTamanho = document.getElementsByClassName("nav")[0].clientHeight;
 		var contentTamanho = document.getElementsByClassName("content")[0].clientHeight;

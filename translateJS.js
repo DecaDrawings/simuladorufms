@@ -31,7 +31,7 @@ function tranlateScrollBox()
             }
             else
             {
-                document.querySelector(".coluna1 .span:nth-of-type(" + (contador) + ")").style.transform = "scale(2)";
+                document.querySelector(".coluna1 .span:nth-of-type(" + (contador + 1) + ")").style.transform = "scale(2)";
                 document.querySelector(".coluna1 .span:nth-of-type(" + (contador - 1) + ")").style.transform = "scale(1)";
             }
             contador += 1;
@@ -57,7 +57,7 @@ function tranlateScrollBox()
             }
             else
             {
-                document.querySelector(".coluna2 .span:nth-of-type(" + (contador1) + ")").style.transform = "scale(2)";
+                document.querySelector(".coluna2 .span:nth-of-type(" + (contador1 + 1) + ")").style.transform = "scale(2)";
                 document.querySelector(".coluna2 .span:nth-of-type(" + (contador1 - 1) + ")").style.transform = "scale(1)";
             }
             contador1 += 1;
@@ -83,7 +83,7 @@ function tranlateScrollBox()
             }
             else
             {
-                document.querySelector(".coluna3 .span:nth-of-type(" + (contador2) + ")").style.transform = "scale(2)";
+                document.querySelector(".coluna3 .span:nth-of-type(" + (contador2 + 1) + ")").style.transform = "scale(2)";
                 document.querySelector(".coluna3 .span:nth-of-type(" + (contador2 - 1) + ")").style.transform = "scale(1)";
             }
             contador2 += 1;

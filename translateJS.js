@@ -8,11 +8,11 @@ function tranlateScrollBox()
     {
         console.log("1 é overflow")
     }
-    if (scrollBox.scrollHeight != Math.max(scrollBox1.offsetHeight, scrollBox1.clientHeight))
+    if (scrollBox.scrollHeight != Math.max(scrollBox.offsetHeight, scrollBox.clientHeight))
     {
         console.log("0 é overflow")
     }
-    if (scrollBox2.scrollHeight != Math.max(scrollBox1.offsetHeight, scrollBox1.clientHeight))
+    if (scrollBox2.scrollHeight != Math.max(scrollBox2.offsetHeight, scrollBox2.clientHeight))
     {
         console.log("2 é overflow")
     }

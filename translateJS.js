@@ -38,7 +38,7 @@ function tranlateScrollBox()
             contador += 1;
             if(contador == quantasVezes)
             {
-                
+                document.querySelector(".span:nth-of-type(" + (contador) + ")").style.transform = "scale(1)";
                 contador = 0;
             }            
         }          

@@ -25,10 +25,15 @@ function tranlateScrollBox()
                 document.querySelector(".span:nth-of-type(" + (contador+1) + ")").style.transform = "scale(2)";
                 console.log(contador);
             }
-            else{
+            else if(contador == 1){
                 document.querySelector(".span:nth-of-type(" + (contador) + ")").style.transform = "scale(1)";
-                document.querySelector(".span:nth-of-type(" + (contador + 1) + ")").style.transform = "scale(2)";
+                document.querySelector(".span:nth-of-type(2)").style.transform = "scale(2)";
                 console.log(contador);
+            }
+            else
+            {
+                document.querySelector(".span:nth-of-type(" + (contador) + ")").style.transform = "scale(2)";
+                document.querySelector(".span:nth-of-type(" + (contador - 1) + ")").style.transform = "scale(1)";
             }
 
             contador += 1;

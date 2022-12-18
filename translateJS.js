@@ -11,6 +11,10 @@ var contador = 0;
 var contador1 = 0;
 var contador2 = 0;
 
+document.querySelector(".coluna1 .span:nth-of-type(1)").style.transform = "scale(2)";
+document.querySelector(".coluna2 .span:nth-of-type(1)").style.transform = "scale(2)";
+document.querySelector(".coluna3 .span:nth-of-type(1)").style.transform = "scale(2)";
+
 function tranlateScrollBox()
 {     
     scrollBox = document.getElementsByClassName("scroll-box")[0];

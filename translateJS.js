@@ -21,11 +21,12 @@ function tranlateScrollBox()
         if(contador<quantasVezes)
         {
             scrollBox.style.transform = "translate(-" + (contador * 100) + "%)";
+            document.querySelector(".span:nth-of-type(" + contador + ")").style.transform = "scale(0.2)";
             contador += 1;
             if(contador == quantasVezes)
             {
                 contador = 0;
-            }
+            }            
         }          
     }
     if (scrollBox1.scrollWidth > scrollBox1.clientWidth)

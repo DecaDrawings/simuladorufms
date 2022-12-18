@@ -7,9 +7,9 @@ var checarTranslado2 = false;
 var quantasVezes = Math.round(scrollBox.scrollWidth / scrollBox.clientWidth);
 var quantasVezes1 = Math.round(scrollBox1.scrollWidth / scrollBox1.clientWidth);
 var quantasVezes2 = Math.round(scrollBox2.scrollWidth / scrollBox2.clientWidth);
-var contador = 0;
-var contador1 = 0;
-var contador2 = 0;
+var contador = 1;
+var contador1 = 1;
+var contador2 = 1;
 
 function tranlateScrollBox()
 {     

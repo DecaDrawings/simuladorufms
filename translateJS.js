@@ -1,4 +1,4 @@
-tranlateScrollBox();
+setInterval(tranlateScrollBox(), 20000);
 function tranlateScrollBox()
 {
     var scrollBox = document.getElementsByClassName("scroll-box")[0];
@@ -8,13 +8,37 @@ function tranlateScrollBox()
     if (scrollBox.scrollWidth > scrollBox.clientWidth)
     {
         console.log("1 é overflow")
+        var translate = scrollBox.style.translate;
+        if(scrollBox.translate = "-100%")
+        {
+            scrollBox.style.transform = "translate(100%);"
+        }
+        else{
+            scrollBox.style.transform = "translate(-100%);"
+        }        
     }
     if (scrollBox1.scrollWidth > scrollBox1.clientWidth)
     {
-        console.log("0 é overflow")
+        console.log("1 é overflow")
+        var translate = scrollBox.style.translate;
+        if(scrollBox.translate = "-100%")
+        {
+            scrollBox.style.transform = "translate(100%);"
+        }
+        else{
+            scrollBox.style.transform = "translate(-100%);"
+        }        
     }
     if (scrollBox2.scrollWidth > scrollBox2.clientWidth)
     {
-        console.log("2 é overflow")
+        console.log("1 é overflow")
+        var translate = scrollBox.style.translate;
+        if(scrollBox.translate = "-100%")
+        {
+            scrollBox.style.transform = "translate(100%);"
+        }
+        else{
+            scrollBox.style.transform = "translate(-100%);"
+        }        
     }
 }

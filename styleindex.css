@@ -431,6 +431,8 @@ h1
     grid-template-rows: repeat(auto-fit, minmax(100px,100px));
     grid-gap: 50px;
     justify-items: center;
+	overflow-x: hidden;
+	grid-auto-columns: 100%;
 }
 .scroll-box li
 {

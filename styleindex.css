@@ -432,6 +432,7 @@ h1
     grid-gap: 50px;
     justify-items: center;
 	overflow-x: hidden;
+	column-gap: 0px;
 	grid-auto-columns: 100%;
 }
 .scroll-box li
@@ -443,6 +444,7 @@ h1
     padding: 10px;
     background-color: rgb(10,10,10);
     margin-bottom: 20px;
+	overflow: hidden;
 }
 .noticia
 {

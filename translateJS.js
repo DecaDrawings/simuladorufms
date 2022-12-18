@@ -4,9 +4,9 @@ function tranlateScrollBox()
     var scrollBox = document.getElementsByClassName("scroll-box")[0];
     var scrollBox1 = document.getElementsByClassName("scroll-box")[0];
     var scrollBox2 = document.getElementsByClassName("scroll-box")[0];
-    var scrollBoxW = scrollBox.width;
-    var scrollBox1W = scrollBox1.width;
-    var scrollBox2W = scrollBox2.width;    
+    var scrollBoxW = scrollBox.getBoundingClientRect().width;
+    var scrollBox1W = scrollBox1.getBoundingClientRect().width;
+    var scrollBox2W = scrollBox2.getBoundingClientRect().width;    
     const parentWidth = scrollBox.parentElement.getBoundingClientRect().width;
     const parentWidth1 = scrollBox1.parentElement.getBoundingClientRect().width;
     const parentWidth2 = scrollBox2.parentElement.getBoundingClientRect().width;

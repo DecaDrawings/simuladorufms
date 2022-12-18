@@ -21,10 +21,17 @@ function tranlateScrollBox()
         if(contador<quantasVezes)
         {
             scrollBox.style.transform = "translate(-" + (contador * 100) + "%)";
-            document.querySelector(".span:nth-of-type(" + (contador+1) + ")").style.transform = "scale(1.2)";
+            if(contador == 0){
+                document.querySelector(".span:nth-of-type(" + (contador+1) + ")").style.transform = "scale(1.2)";
+            }
+            else{
+                document.querySelector(".span:nth-of-type(" + (contador-1) + ")").style.transform = "scale(1)";
+                document.querySelector(".span:nth-of-type(" + (contador) + ")").style.transform = "scale(1.2)";
+            }
             contador += 1;
             if(contador == quantasVezes)
             {
+                document.querySelector(".span:nth-of-type(" + (contador) + ")").style.transform = "scale(1)";
                 contador = 0;
             }            
         }          

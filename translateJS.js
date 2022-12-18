@@ -23,7 +23,7 @@ function tranlateScrollBox()
             scrollBox.style.transform = "translate(-" + (contador * 100) + "%)";
             if(contador == 0){
                 document.querySelector(".span:nth-of-type(" + (contador+1) + ")").style.transform = "scale(2)";
-                document.querySelector(".span:last-of-type").style.transform = "scale(2)";
+                document.querySelector(".span:last-of-type").style.transform = "scale(1)";
                 console.log(contador);
             }
             else if(contador == 1){

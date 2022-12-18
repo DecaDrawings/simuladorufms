@@ -167,6 +167,10 @@ crossorigin="anonymous"></script>
             elementoPai2.innerHTML += "<span class='span' style='translate:"+(10*c)+"px;'></span>";
         }
         
+        document.querySelector(".coluna1 .span:nth-of-type(1)").style.transform = "scale(2)";
+        document.querySelector(".coluna2 .span:nth-of-type(1)").style.transform = "scale(2)";
+        document.querySelector(".coluna3 .span:nth-of-type(1)").style.transform = "scale(2)";
+
         setInterval(tranlateScrollBox, 5000);
 	
 		var navTamanho = document.getElementsByClassName("nav")[0].clientHeight;

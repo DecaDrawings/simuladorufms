@@ -1,4 +1,4 @@
-setInterval(tranlateScrollBox(), 2000);
+setInterval(tranlateScrollBox, 2000);
 function tranlateScrollBox()
 {
     var scrollBox = document.getElementsByClassName("scroll-box")[0];

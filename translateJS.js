@@ -13,6 +13,9 @@ var contador2 = 1;
 
 function tranlateScrollBox()
 {     
+    scrollBox = document.getElementsByClassName("scroll-box")[0];
+    scrollBox1 = document.getElementsByClassName("scroll-box")[1];
+    scrollBox2 = document.getElementsByClassName("scroll-box")[2];  
     if (scrollBox.scrollWidth > scrollBox.clientWidth)
     {                
         if(contador<quantasVezes)

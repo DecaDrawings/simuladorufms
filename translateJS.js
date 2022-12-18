@@ -14,11 +14,16 @@ var contador3 = 0;
 function tranlateScrollBox()
 {     
     if (scrollBox.scrollWidth > scrollBox.clientWidth)
-    {
-        console.log("1 é overflow")
-        var translate = scrollBox.style.translate;
-
-             
+    {                
+        if(contador<quantasVezes)
+        {
+            scrollBox.style.transform = "translate(-" + (contador * 100) + "%)";
+            contador += 1;
+            if(contador == quantasVezes)
+            {
+                contador = 0;
+            }
+        }          
     }
     if (scrollBox1.scrollWidth > scrollBox1.clientWidth)
     {

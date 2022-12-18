@@ -7,9 +7,9 @@ var checarTranslado2 = false;
 var quantasVezes = Math.round(scrollBox.scrollWidth / scrollBox.clientWidth);
 var quantasVezes1 = Math.round(scrollBox1.scrollWidth / scrollBox1.clientWidth);
 var quantasVezes2 = Math.round(scrollBox2.scrollWidth / scrollBox2.clientWidth);
-var contador = 1;
-var contador1 = 1;
-var contador2 = 1;
+var contador = 0;
+var contador1 = 0;
+var contador2 = 0;
 
 function tranlateScrollBox()
 {     
@@ -23,6 +23,7 @@ function tranlateScrollBox()
             scrollBox.style.transform = "translate(-" + (contador * 100) + "%)";
             if(contador == 0){
                 document.querySelector(".span:nth-of-type(" + (contador+1) + ")").style.transform = "scale(2)";
+                document.querySelector(".span:last-of-type").style.transform = "scale(2)";
                 console.log(contador);
             }
             else if(contador == 1){
@@ -37,8 +38,7 @@ function tranlateScrollBox()
             }
             contador += 1;
             if(contador == quantasVezes)
-            {
-                document.querySelector(".span:nth-of-type(" + (contador) + ")").style.transform = "scale(1)";
+            {                
                 contador = 0;
             }            
         }          

@@ -409,13 +409,17 @@ h1
     text-align: center;
     color: black;
     font-weight: bold;
-    box-sizing: border-box;
+    
+    overflow-x: hidden;
     padding-bottom: 20px;
     margin-right: 20px;
     display: grid;
     grid-template-areas: "titulo";
+    grid-auto-flow: column;
     grid-template-rows: 69px repeat(auto-fit, minmax(100px, 100px));
+    grid-template-columns: 100%;
     padding-bottom: 70px;
+    grid-auto-columns: 100%;
     grid-gap: 40px;
     justify-items: center;
     align-items: start;

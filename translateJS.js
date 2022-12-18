@@ -33,7 +33,7 @@ function tranlateScrollBox()
             {
                 console.log(contador);
                 document.querySelector(".coluna1 .span:nth-of-type(" + (contador + 1) + ")").style.transform = "scale(2)";
-                document.querySelector(".coluna1 .span:nth-of-type(" + (contador - 1) + ")").style.transform = "scale(1)";
+                document.querySelector(".coluna1 .span:nth-of-type(" + (contador) + ")").style.transform = "scale(1)";
             }
             contador += 1;
             if(contador == quantasVezes)

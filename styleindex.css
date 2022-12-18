@@ -415,6 +415,7 @@ h1
     display: grid;
     grid-template-areas: "titulo" "scroll";     
     grid-template-columns: 100%;
+	grid-template-rows: 69px;
     padding-bottom: 70px;    
     grid-gap: 40px;
     justify-items: center;
@@ -423,10 +424,13 @@ h1
 .scroll-box
 {
 	grid-area: scroll;
-	display: grid;
-	grid-auto-flow: column;
-	grid-template-columns: 100%;
-	grid-gap: 20px;
+    display: grid;
+    grid-auto-flow: column;
+    height: 100%;
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(auto-fit, minmax(100px,100px));
+    grid-gap: 50px;
+    justify-items: center;
 }
 .scroll-box li
 {

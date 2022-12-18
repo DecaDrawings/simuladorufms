@@ -48,9 +48,24 @@ function tranlateScrollBox()
         if(contador1<quantasVezes1)
         {
             scrollBox1.style.transform = "translate(-" + (contador1 * 100) + "%)";
+            if(contador1 == 0){
+                document.querySelector(".span:nth-of-type(" + (contador1+1) + ")").style.transform = "scale(2)";
+                console.log(contador1);
+            }
+            else if(contador1 == 1){
+                document.querySelector(".span:nth-of-type(1)").style.transform = "scale(1)";
+                document.querySelector(".span:nth-of-type(2)").style.transform = "scale(2)";
+                console.log(contador1);
+            }
+            else
+            {
+                document.querySelector(".span:nth-of-type(" + (contador1) + ")").style.transform = "scale(2)";
+                document.querySelector(".span:nth-of-type(" + (contador1 - 1) + ")").style.transform = "scale(1)";
+            }
             contador1 += 1;
             if(contador1 == quantasVezes1)
             {
+                document.querySelector(".span:nth-of-type(" + (contador1) + ")").style.transform = "scale(1)";
                 contador1 = 0;
             }
         }         
@@ -60,9 +75,24 @@ function tranlateScrollBox()
         if(contador2<quantasVezes2)
         {
             scrollBox2.style.transform = "translate(-" + (contador2 * 100) + "%)";
+            if(contador2 == 0){
+                document.querySelector(".span:nth-of-type(" + (contador2+1) + ")").style.transform = "scale(2)";
+                console.log(contador2);
+            }
+            else if(contador2 == 1){
+                document.querySelector(".span:nth-of-type(1)").style.transform = "scale(1)";
+                document.querySelector(".span:nth-of-type(2)").style.transform = "scale(2)";
+                console.log(contador2);
+            }
+            else
+            {
+                document.querySelector(".span:nth-of-type(" + (contador2) + ")").style.transform = "scale(2)";
+                document.querySelector(".span:nth-of-type(" + (contador2 - 1) + ")").style.transform = "scale(1)";
+            }
             contador2 += 1;
             if(contador2 == quantasVezes2)
             {
+                document.querySelector(".span:nth-of-type(" + (contador2) + ")").style.transform = "scale(1)";
                 contador2 = 0;
             }
         }     

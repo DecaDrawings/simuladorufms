@@ -20,7 +20,7 @@ function tranlateScrollBox()
 
         while(contador < quantasVezes)
         {
-            scrollBox.style.transform = "translate(" + contador * -100 + "%)";
+            scrollBox.style.transform = "translate(-" + contador * 100 + "%)";
             contador += 1;
             if(contador == quantasVezes)
             {

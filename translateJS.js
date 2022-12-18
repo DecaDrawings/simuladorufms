@@ -18,7 +18,7 @@ function tranlateScrollBox()
         }
         else
         {
-            scrollBox.style.transform = "translate(100%)";
+            scrollBox.style.transform = "translate(0)";
             checarTranslado = false;
         }        
     }
@@ -33,7 +33,7 @@ function tranlateScrollBox()
         }
         else
         {
-            scrollBox1.style.transform = "translate(100%)";
+            scrollBox1.style.transform = "translate(0)";
             checarTranslado1 = false;
         }        
     }
@@ -48,7 +48,7 @@ function tranlateScrollBox()
         }
         else
         {
-            scrollBox2.style.transform = "translate(100%)";
+            scrollBox2.style.transform = "translate(0)";
             checarTranslado2 = false;
         }        
     }

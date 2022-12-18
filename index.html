@@ -149,6 +149,21 @@ crossorigin="anonymous"></script>
 	<script type="text/javascript" src="notes.js"></script>
     <script type="text/javascript" src="translateJS.js"></script>
 	<script>
+
+        
+        for(var a = 0; a < quantasVezes; a++)
+        {
+            elementoPai.innerHTML += "<span class='span' style='translate:"+(10*a)+"px;'></span>";
+            
+        }
+        for(var b = 0; b < quantasVezes1; b++)
+        {
+            elementoPai1.innerHTML += "<span class='span' style='translate:"+(10*b)+"px;'></span>";
+        }
+        for(var c = 0; c < quantasVezes2; c++)
+        {
+            elementoPai2.innerHTML += "<span class='span' style='translate:"+(10*c)+"px;'></span>";
+        }
 	
 		var navTamanho = document.getElementsByClassName("nav")[0].clientHeight;
 		var contentTamanho = document.getElementsByClassName("content")[0].clientHeight;

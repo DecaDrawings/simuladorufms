@@ -2,15 +2,19 @@ setInterval(tranlateScrollBox, 2000);
 var scrollBox = document.getElementsByClassName("scroll-box")[0];
 var scrollBox1 = document.getElementsByClassName("scroll-box")[1];
 var scrollBox2 = document.getElementsByClassName("scroll-box")[2];  
+var checarTranslado = false;
+var checarTranslado1 = false;
+var checarTranslado2 = false;
 function tranlateScrollBox()
-{ 
+{     
     if (scrollBox.scrollWidth > scrollBox.clientWidth)
     {
         console.log("1 é overflow")
         var translate = scrollBox.style.translate;
-        if(scrollBox.translate == "-100%")
+        if(checarTranslado == false)
         {
             scrollBox.style.transform = "translate(100%)";
+            checarTranslado = true;
         }
         else
         {
@@ -21,9 +25,10 @@ function tranlateScrollBox()
     {
         console.log("1 é overflow")
         var translate = scrollBox1.style.translate;
-        if(scrollBox1.translate == "-100%")
+        if(checarTranslado1 == false)
         {
             scrollBox1.style.transform = "translate(100%)";
+            checarTranslado1 = true;
         }
         else
         {
@@ -34,9 +39,10 @@ function tranlateScrollBox()
     {
         console.log("1 é overflow")
         var translate = scrollBox2.style.translate;
-        if(scrollBox2.translate == "-100%")
+        if(checarTranslado1 == false)
         {
             scrollBox2.style.transform = "translate(100%)";
+            checarTranslado1 = true;
         }
         else
         {

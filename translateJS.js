@@ -31,6 +31,7 @@ function tranlateScrollBox()
             }
             else
             {
+                console.log(contador);
                 document.querySelector(".coluna1 .span:nth-of-type(" + (contador + 1) + ")").style.transform = "scale(2)";
                 document.querySelector(".coluna1 .span:nth-of-type(" + (contador - 1) + ")").style.transform = "scale(1)";
             }
@@ -39,7 +40,7 @@ function tranlateScrollBox()
             {                
                 contador = 0;
             }
-            console.log(contador);            
+                     
         }          
     }
     if (scrollBox1.scrollWidth > scrollBox1.clientWidth)

@@ -12,12 +12,6 @@ var contador = 1;
 var contador1 = 1;
 var contador2 = 1;
 
-var elementoPai = scrollBox.parentElement;
-var elementoPai1 = scrollBox1.parentElement;
-var elementoPai2 = scrollBox2.parentElement;
-
-
-
 function tranlateScrollBox()
 {     
     if (scrollBox.scrollWidth > scrollBox.clientWidth)

@@ -423,6 +423,7 @@ h1
 }
 .scroll-box
 {
+	transition: 1.5s;
 	grid-area: scroll;
     display: grid;
     grid-auto-flow: column;

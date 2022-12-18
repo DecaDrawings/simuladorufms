@@ -5,22 +5,28 @@ var scrollBox2 = document.getElementsByClassName("scroll-box")[2];
 var checarTranslado = false;
 var checarTranslado1 = false;
 var checarTranslado2 = false;
+var quantasVezes = Math.round(scrollBox.scrollWidth / scrollBox.clientWidth);
+var quantasVezes1 = Math.round(scrollBox1.scrollWidth / scrollBox1.clientWidth);
+var quantasVezes2 = Math.round(scrollBox2.scrollWidth / scrollBox2.clientWidth);
+var contador = 0;
+var contador2 = 0;
+var contador3 = 0;
 function tranlateScrollBox()
 {     
     if (scrollBox.scrollWidth > scrollBox.clientWidth)
     {
         console.log("1 é overflow")
         var translate = scrollBox.style.translate;
-        if(checarTranslado == false)
+
+        while(contador < quantasVezes)
         {
-            scrollBox.style.transform = "translate(-100%)";
-            checarTranslado = true;
-        }
-        else
-        {
-            scrollBox.style.transform = "translate(0)";
-            checarTranslado = false;
-        }        
+            scrollBox.style.transform = "translate(" + contador * -100 + "%)";
+            contador++;
+            if(contador == quantasVezes)
+            {
+                contador = 0;
+            }
+        }          
     }
     if (scrollBox1.scrollWidth > scrollBox1.clientWidth)
     {

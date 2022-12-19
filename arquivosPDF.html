@@ -44,7 +44,7 @@ crossorigin="anonymous"></script>
 				<a href="pesos.html">
 					<img class="icon" src="/icons/weight_60px.png">
 					<li>Pesos</li></a>		
-				<a href="contato.html" class="active">
+				<a href="contato.html" class="">
 					<img class="icon" src="/icons/phone_100px.png">
 					<li>Contato</li></a>					
 				</ul>
@@ -93,9 +93,14 @@ crossorigin="anonymous"></script>
 	<script>
 	
 		var navTamanho = document.getElementsByClassName("nav")[0].clientHeight;
+        var content = document.getElementsByClassName("content")[0];
 		var contentTamanho = document.getElementsByClassName("content")[0].clientHeight;
+        var contentWidth = document.getElementsByClassName("content")[0].clientWidth;
 		var foot = document.getElementsByClassName("foot")[0];
 		var viewport_height = window.innerHeight;
+        if(contentWidth <= 800){
+         content.style.marginTop = navTamanho + "px";
+        }
 		foot.style.height = viewport_height - (contentTamanho + navTamanho) - 9 + "px";
 		
 	</script>
